@@ -1,8 +1,8 @@
-'1':
+sprint_2:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Sprint a distance of &3486 blocks."
+    - "&8 \xBB &7Sprint a distance of &3229 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -13,5 +13,5 @@
     name: '&e&lQUEST:&f Speed Demon'
   name: Speed Demon
   points: 5
-  required-progress: 486
+  required-progress: 229
   type: sprint

@@ -1,126 +1,126 @@
-'1':
+ride_1:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride &321 Camel &7mobs."
+    - "&8 \xBB &7Ride a Camel for &3488 blocks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: SADDLE
-    name: '&e&lQUEST:&f Riding Expert'
-  name: Camel Riding
-  points: 4
-  required-progress: 21
+    name: '&e&lQUEST:&f Camel Rider'
+  name: Camel Rider
+  points: 5
+  required-progress: 488
   type: ride-mob
   variable: Camel
-'2':
+ride_2:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride &328 Donkey &7mobs."
+    - "&8 \xBB &7Ride a Donkey for &3448 blocks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: SADDLE
-    name: '&e&lQUEST:&f Riding Expert'
-  name: Donkey Riding
-  points: 4
-  required-progress: 28
+    name: '&e&lQUEST:&f Donkey Rider'
+  name: Donkey Rider
+  points: 5
+  required-progress: 448
   type: ride-mob
   variable: Donkey
-'3':
+ride_3:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride &361 Horse &7mobs."
+    - "&8 \xBB &7Ride a Horse for &3185 blocks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: SADDLE
-    name: '&e&lQUEST:&f Riding Expert'
-  name: Horse Riding
-  points: 4
-  required-progress: 61
+    name: '&e&lQUEST:&f Horse Rider'
+  name: Horse Rider
+  points: 5
+  required-progress: 185
   type: ride-mob
   variable: Horse
-'4':
+ride_4:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride &325 Mule &7mobs."
+    - "&8 \xBB &7Ride a Mule for &3437 blocks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: SADDLE
-    name: '&e&lQUEST:&f Riding Expert'
-  name: Mule Riding
-  points: 4
-  required-progress: 25
+    name: '&e&lQUEST:&f Mule Rider'
+  name: Mule Rider
+  points: 5
+  required-progress: 437
   type: ride-mob
   variable: Mule
-'5':
+ride_5:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride &350 Pig &7mobs."
+    - "&8 \xBB &7Ride a Pig for &3154 blocks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: SADDLE
-    name: '&e&lQUEST:&f Riding Expert'
-  name: Pig Riding
-  points: 4
-  required-progress: 50
+    name: '&e&lQUEST:&f Pig Rider'
+  name: Pig Rider
+  points: 5
+  required-progress: 154
   type: ride-mob
   variable: Pig
-'6':
+ride_6:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride &335 Skeleton_Horse &7mobs."
+    - "&8 \xBB &7Ride a Skeleton_Horse for &3434 blocks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: SADDLE
-    name: '&e&lQUEST:&f Riding Expert'
-  name: Skeleton_Horse Riding
-  points: 4
-  required-progress: 35
+    name: '&e&lQUEST:&f Skeleton_Horse Rider'
+  name: Skeleton_Horse Rider
+  points: 5
+  required-progress: 434
   type: ride-mob
   variable: Skeleton_Horse
-'7':
+ride_7:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride &360 Strider &7mobs."
+    - "&8 \xBB &7Ride a Strider for &3329 blocks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: SADDLE
-    name: '&e&lQUEST:&f Riding Expert'
-  name: Strider Riding
-  points: 4
-  required-progress: 60
+    name: '&e&lQUEST:&f Strider Rider'
+  name: Strider Rider
+  points: 5
+  required-progress: 329
   type: ride-mob
   variable: Strider

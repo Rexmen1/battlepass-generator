@@ -1,1404 +1,1404 @@
-'1':
+mob_1:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &355 Sheep &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &340 Sheep&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Sheep Slayer'
   name: Sheep Hunter
   points: 5
-  required-progress: 55
+  required-progress: 40
   type: kill-mob
   variable: Sheep
-'10':
+mob_10:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &343 Baby_polar_bear &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &330 Baby_polar_bear&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Baby_polar_bear Slayer'
   name: Baby_polar_bear Hunter
-  points: 5
-  required-progress: 43
+  points: 4
+  required-progress: 30
   type: kill-mob
   variable: Baby_polar_bear
-'11':
+mob_11:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &358 Snow_golem &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &325 Snow_golem&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Snow_golem Slayer'
   name: Snow_golem Hunter
-  points: 5
-  required-progress: 58
+  points: 4
+  required-progress: 25
   type: kill-mob
   variable: Snow_golem
-'12':
+mob_12:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &344 Rabbit &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &330 Rabbit&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Rabbit Slayer'
   name: Rabbit Hunter
-  points: 5
-  required-progress: 44
+  points: 4
+  required-progress: 30
   type: kill-mob
   variable: Rabbit
-'13':
+mob_13:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &357 Salmon &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &322 Salmon&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Salmon Slayer'
   name: Salmon Hunter
-  points: 5
-  required-progress: 57
+  points: 4
+  required-progress: 22
   type: kill-mob
   variable: Salmon
-'14':
+mob_14:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &327 Mooshroom &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &334 Mooshroom&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Mooshroom Slayer'
   name: Mooshroom Hunter
   points: 5
-  required-progress: 27
+  required-progress: 34
   type: kill-mob
   variable: Mooshroom
-'15':
+mob_15:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &319 Squid &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &330 Squid&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Squid Slayer'
   name: Squid Hunter
-  points: 5
-  required-progress: 19
+  points: 4
+  required-progress: 30
   type: kill-mob
   variable: Squid
-'16':
+mob_16:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &331 Strider &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &340 Strider&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Strider Slayer'
   name: Strider Hunter
   points: 5
-  required-progress: 31
+  required-progress: 40
   type: kill-mob
   variable: Strider
-'17':
+mob_17:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &359 Tropical_fish &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &325 Tropical_fish&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Tropical_fish Slayer'
   name: Tropical_fish Hunter
-  points: 5
-  required-progress: 59
+  points: 4
+  required-progress: 25
   type: kill-mob
   variable: Tropical_fish
-'18':
+mob_18:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &364 Turtle &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &318 Turtle&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Turtle Slayer'
   name: Turtle Hunter
-  points: 5
-  required-progress: 64
+  points: 4
+  required-progress: 18
   type: kill-mob
   variable: Turtle
-'19':
+mob_19:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &336 Villager &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &325 Villager&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Villager Slayer'
   name: Villager Hunter
-  points: 5
-  required-progress: 36
+  points: 4
+  required-progress: 25
   type: kill-mob
   variable: Villager
-'2':
+mob_2:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &319 Cow &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &334 Cow&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Cow Slayer'
   name: Cow Hunter
   points: 5
-  required-progress: 19
+  required-progress: 34
   type: kill-mob
   variable: Cow
-'20':
+mob_20:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &356 Wandering_trader &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &322 Wandering_trader&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Wandering_trader Slayer'
   name: Wandering_trader Hunter
-  points: 5
-  required-progress: 56
+  points: 4
+  required-progress: 22
   type: kill-mob
   variable: Wandering_trader
-'21':
+mob_21:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &320 Pufferfish &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &340 Pufferfish&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Pufferfish Slayer'
   name: Pufferfish Hunter
   points: 5
-  required-progress: 20
+  required-progress: 40
   type: kill-mob
   variable: Pufferfish
-'22':
+mob_22:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &359 Axolotl &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &322 Axolotl&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Axolotl Slayer'
   name: Axolotl Hunter
-  points: 5
-  required-progress: 59
+  points: 4
+  required-progress: 22
   type: kill-mob
   variable: Axolotl
-'23':
+mob_23:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &343 Glow_Squid &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &331 Glow_Squid&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Glow_Squid Slayer'
   name: Glow_Squid Hunter
   points: 5
-  required-progress: 43
+  required-progress: 31
   type: kill-mob
   variable: Glow_Squid
-'24':
+mob_24:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &355 Frog &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &321 Frog&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Frog Slayer'
   name: Frog Hunter
-  points: 5
-  required-progress: 55
+  points: 4
+  required-progress: 21
   type: kill-mob
   variable: Frog
-'25':
+mob_25:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &362 Donkey &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &334 Donkey&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Donkey Slayer'
   name: Donkey Hunter
   points: 5
-  required-progress: 62
+  required-progress: 34
   type: kill-mob
   variable: Donkey
-'26':
+mob_26:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &360 Horse &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &319 Horse&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Horse Slayer'
   name: Horse Hunter
-  points: 5
-  required-progress: 60
+  points: 4
+  required-progress: 19
   type: kill-mob
   variable: Horse
-'27':
+mob_27:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &345 Cat &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &336 Cat&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Cat Slayer'
   name: Cat Hunter
   points: 5
-  required-progress: 45
+  required-progress: 36
   type: kill-mob
   variable: Cat
-'28':
+mob_28:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &325 Parrot &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &334 Parrot&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Parrot Slayer'
   name: Parrot Hunter
   points: 5
-  required-progress: 25
+  required-progress: 34
   type: kill-mob
   variable: Parrot
-'29':
+mob_29:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &325 Mule &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &328 Mule&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Mule Slayer'
   name: Mule Hunter
-  points: 5
-  required-progress: 25
+  points: 4
+  required-progress: 28
   type: kill-mob
   variable: Mule
-'3':
+mob_3:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &342 Fox &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &331 Fox&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Fox Slayer'
   name: Fox Hunter
   points: 5
-  required-progress: 42
+  required-progress: 31
   type: kill-mob
   variable: Fox
-'30':
+mob_30:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &336 Skeleton_horse &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &326 Skeleton_horse&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Skeleton_horse Slayer'
   name: Skeleton_horse Hunter
-  points: 5
-  required-progress: 36
+  points: 4
+  required-progress: 26
   type: kill-mob
   variable: Skeleton_horse
-'31':
+mob_31:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &350 Allay &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &324 Allay&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Allay Slayer'
   name: Allay Hunter
-  points: 5
-  required-progress: 50
+  points: 4
+  required-progress: 24
   type: kill-mob
   variable: Allay
-'32':
+mob_32:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &347 Dolphin &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &322 Dolphin&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Dolphin Slayer'
   name: Dolphin Hunter
-  points: 5
-  required-progress: 47
+  points: 4
+  required-progress: 22
   type: kill-mob
   variable: Dolphin
-'33':
+mob_33:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &334 Polar_bear &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &335 Polar_bear&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Polar_bear Slayer'
   name: Polar_bear Hunter
   points: 5
-  required-progress: 34
+  required-progress: 35
   type: kill-mob
   variable: Polar_bear
-'34':
+mob_34:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &353 Trader_llama &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &316 Trader_llama&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Trader_llama Slayer'
   name: Trader_llama Hunter
-  points: 5
-  required-progress: 53
+  points: 4
+  required-progress: 16
   type: kill-mob
   variable: Trader_llama
-'35':
+mob_35:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &347 Llama &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &336 Llama&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Llama Slayer'
   name: Llama Hunter
   points: 5
-  required-progress: 47
+  required-progress: 36
   type: kill-mob
   variable: Llama
-'36':
+mob_36:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &346 Panda &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &323 Panda&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Panda Slayer'
   name: Panda Hunter
-  points: 5
-  required-progress: 46
+  points: 4
+  required-progress: 23
   type: kill-mob
   variable: Panda
-'37':
+mob_37:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &327 Wolf &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &322 Wolf&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Wolf Slayer'
   name: Wolf Hunter
-  points: 5
-  required-progress: 27
+  points: 4
+  required-progress: 22
   type: kill-mob
   variable: Wolf
-'38':
+mob_38:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &344 Bee &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &329 Bee&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Bee Slayer'
   name: Bee Hunter
-  points: 5
-  required-progress: 44
+  points: 4
+  required-progress: 29
   type: kill-mob
   variable: Bee
-'39':
+mob_39:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &345 Iron_Golem &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &333 Iron_Golem&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Iron_Golem Slayer'
   name: Iron_Golem Hunter
   points: 5
-  required-progress: 45
+  required-progress: 33
   type: kill-mob
   variable: Iron_Golem
-'4':
+mob_4:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &343 Bat &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &322 Bat&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Bat Slayer'
   name: Bat Hunter
-  points: 5
-  required-progress: 43
+  points: 4
+  required-progress: 22
   type: kill-mob
   variable: Bat
-'40':
+mob_40:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &327 Goat &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &318 Goat&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Goat Slayer'
   name: Goat Hunter
-  points: 5
-  required-progress: 27
+  points: 4
+  required-progress: 18
   type: kill-mob
   variable: Goat
-'41':
+mob_41:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &361 Spider &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &329 Spider&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Spider Slayer'
   name: Spider Hunter
-  points: 5
-  required-progress: 61
+  points: 4
+  required-progress: 29
   type: kill-mob
   variable: Spider
-'42':
+mob_42:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &328 Cave_Spider &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &340 Cave_Spider&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Cave_Spider Slayer'
   name: Cave_Spider Hunter
   points: 5
-  required-progress: 28
+  required-progress: 40
   type: kill-mob
   variable: Cave_Spider
-'43':
+mob_43:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &335 Enderman &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &325 Enderman&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Enderman Slayer'
   name: Enderman Hunter
-  points: 5
-  required-progress: 35
+  points: 4
+  required-progress: 25
   type: kill-mob
   variable: Enderman
-'44':
+mob_44:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &316 Zombie_Pigman &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &324 Zombie_Pigman&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Zombie_Pigman Slayer'
   name: Zombie_Pigman Hunter
-  points: 5
-  required-progress: 16
+  points: 4
+  required-progress: 24
   type: kill-mob
   variable: Zombie_Pigman
-'45':
+mob_45:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &339 Piglin &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &332 Piglin&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Piglin Slayer'
   name: Piglin Hunter
   points: 5
-  required-progress: 39
+  required-progress: 32
   type: kill-mob
   variable: Piglin
-'46':
+mob_46:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &331 Zombified_Piglin &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &328 Zombified_Piglin&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Zombified_Piglin Slayer'
   name: Zombified_Piglin Hunter
-  points: 5
-  required-progress: 31
+  points: 4
+  required-progress: 28
   type: kill-mob
   variable: Zombified_Piglin
-'47':
+mob_47:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &341 Evoker &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &337 Evoker&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Evoker Slayer'
   name: Evoker Hunter
   points: 5
-  required-progress: 41
+  required-progress: 37
   type: kill-mob
   variable: Evoker
-'48':
+mob_48:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &341 Vindicator &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &322 Vindicator&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Vindicator Slayer'
   name: Vindicator Hunter
-  points: 5
-  required-progress: 41
+  points: 4
+  required-progress: 22
   type: kill-mob
   variable: Vindicator
-'49':
+mob_49:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &329 Pillager &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &336 Pillager&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Pillager Slayer'
   name: Pillager Hunter
   points: 5
-  required-progress: 29
+  required-progress: 36
   type: kill-mob
   variable: Pillager
-'5':
+mob_5:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &346 Chicken &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &333 Chicken&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Chicken Slayer'
   name: Chicken Hunter
   points: 5
-  required-progress: 46
+  required-progress: 33
   type: kill-mob
   variable: Chicken
-'50':
+mob_50:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &323 Ravager &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &340 Ravager&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Ravager Slayer'
   name: Ravager Hunter
   points: 5
-  required-progress: 23
+  required-progress: 40
   type: kill-mob
   variable: Ravager
-'51':
+mob_51:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &334 Ravager_Jockey &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &323 Ravager_Jockey&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Ravager_Jockey Slayer'
   name: Ravager_Jockey Hunter
-  points: 5
-  required-progress: 34
+  points: 4
+  required-progress: 23
   type: kill-mob
   variable: Ravager_Jockey
-'52':
+mob_52:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &329 Vex &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &327 Vex&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Vex Slayer'
   name: Vex Hunter
-  points: 5
-  required-progress: 29
+  points: 4
+  required-progress: 27
   type: kill-mob
   variable: Vex
-'53':
+mob_53:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &323 Chicken_Jockey &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &332 Chicken_Jockey&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Chicken_Jockey Slayer'
   name: Chicken_Jockey Hunter
   points: 5
-  required-progress: 23
+  required-progress: 32
   type: kill-mob
   variable: Chicken_Jockey
-'54':
+mob_54:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &350 Endermite &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &316 Endermite&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Endermite Slayer'
   name: Endermite Hunter
-  points: 5
-  required-progress: 50
+  points: 4
+  required-progress: 16
   type: kill-mob
   variable: Endermite
-'55':
+mob_55:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &328 Guardian &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &324 Guardian&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Guardian Slayer'
   name: Guardian Hunter
-  points: 5
-  required-progress: 28
+  points: 4
+  required-progress: 24
   type: kill-mob
   variable: Guardian
-'56':
+mob_56:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &331 Elder_Guardian &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &331 Elder_Guardian&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Elder_Guardian Slayer'
   name: Elder_Guardian Hunter
   points: 5
   required-progress: 31
   type: kill-mob
   variable: Elder_Guardian
-'57':
+mob_57:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &335 Shulker &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &333 Shulker&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Shulker Slayer'
   name: Shulker Hunter
   points: 5
-  required-progress: 35
+  required-progress: 33
   type: kill-mob
   variable: Shulker
-'58':
+mob_58:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &319 Skeleton_Horseman &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &325 Skeleton_Horseman&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Skeleton_Horseman Slayer'
   name: Skeleton_Horseman Hunter
-  points: 5
-  required-progress: 19
+  points: 4
+  required-progress: 25
   type: kill-mob
   variable: Skeleton_Horseman
-'59':
+mob_59:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &334 Husk &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &328 Husk&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Husk Slayer'
   name: Husk Hunter
-  points: 5
-  required-progress: 34
+  points: 4
+  required-progress: 28
   type: kill-mob
   variable: Husk
-'6':
+mob_6:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &335 Cod &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &323 Cod&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Cod Slayer'
   name: Cod Hunter
-  points: 5
-  required-progress: 35
+  points: 4
+  required-progress: 23
   type: kill-mob
   variable: Cod
-'60':
+mob_60:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &330 Stray &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &321 Stray&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Stray Slayer'
   name: Stray Hunter
-  points: 5
-  required-progress: 30
+  points: 4
+  required-progress: 21
   type: kill-mob
   variable: Stray
-'61':
+mob_61:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &324 Phantom &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &340 Phantom&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Phantom Slayer'
   name: Phantom Hunter
   points: 5
-  required-progress: 24
+  required-progress: 40
   type: kill-mob
   variable: Phantom
-'62':
+mob_62:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &319 Blaze &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &328 Blaze&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Blaze Slayer'
   name: Blaze Hunter
-  points: 5
-  required-progress: 19
+  points: 4
+  required-progress: 28
   type: kill-mob
   variable: Blaze
-'63':
+mob_63:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &344 Creeper &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &324 Creeper&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Creeper Slayer'
   name: Creeper Hunter
-  points: 5
-  required-progress: 44
+  points: 4
+  required-progress: 24
   type: kill-mob
   variable: Creeper
-'64':
+mob_64:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &357 Ghast &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &336 Ghast&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Ghast Slayer'
   name: Ghast Hunter
   points: 5
-  required-progress: 57
+  required-progress: 36
   type: kill-mob
   variable: Ghast
-'65':
+mob_65:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &328 Magma_Cube &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &327 Magma_Cube&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Magma_Cube Slayer'
   name: Magma_Cube Hunter
-  points: 5
-  required-progress: 28
+  points: 4
+  required-progress: 27
   type: kill-mob
   variable: Magma_Cube
-'66':
+mob_66:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &353 Silverfish &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &320 Silverfish&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Silverfish Slayer'
   name: Silverfish Hunter
-  points: 5
-  required-progress: 53
+  points: 4
+  required-progress: 20
   type: kill-mob
   variable: Silverfish
-'67':
+mob_67:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &338 Skeleton &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &318 Skeleton&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Skeleton Slayer'
   name: Skeleton Hunter
-  points: 5
-  required-progress: 38
+  points: 4
+  required-progress: 18
   type: kill-mob
   variable: Skeleton
-'68':
+mob_68:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &329 Minecraft_slime &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &332 Minecraft_slime&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Minecraft_slime Slayer'
   name: Minecraft_slime Hunter
   points: 5
-  required-progress: 29
+  required-progress: 32
   type: kill-mob
   variable: Minecraft_slime
-'69':
+mob_69:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &333 Spider_Jockey &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &330 Spider_Jockey&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Spider_Jockey Slayer'
   name: Spider_Jockey Hunter
-  points: 5
-  required-progress: 33
+  points: 4
+  required-progress: 30
   type: kill-mob
   variable: Spider_Jockey
-'7':
+mob_7:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &346 Ocelot &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &325 Ocelot&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Ocelot Slayer'
   name: Ocelot Hunter
-  points: 5
-  required-progress: 46
+  points: 4
+  required-progress: 25
   type: kill-mob
   variable: Ocelot
-'70':
+mob_70:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &320 Zombie &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &317 Zombie&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Zombie Slayer'
   name: Zombie Hunter
-  points: 5
-  required-progress: 20
+  points: 4
+  required-progress: 17
   type: kill-mob
   variable: Zombie
-'71':
+mob_71:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &324 Zombie_Villager &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &340 Zombie_Villager&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Zombie_Villager Slayer'
   name: Zombie_Villager Hunter
   points: 5
-  required-progress: 24
+  required-progress: 40
   type: kill-mob
   variable: Zombie_Villager
-'72':
+mob_72:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &327 Drowned &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &338 Drowned&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Drowned Slayer'
   name: Drowned Hunter
   points: 5
-  required-progress: 27
+  required-progress: 38
   type: kill-mob
   variable: Drowned
-'73':
+mob_73:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &330 Wither_Skeleton &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &328 Wither_Skeleton&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Wither_Skeleton Slayer'
   name: Wither_Skeleton Hunter
-  points: 5
-  required-progress: 30
+  points: 4
+  required-progress: 28
   type: kill-mob
   variable: Wither_Skeleton
-'74':
+mob_74:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &353 Witch &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &331 Witch&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Witch Slayer'
   name: Witch Hunter
   points: 5
-  required-progress: 53
+  required-progress: 31
   type: kill-mob
   variable: Witch
-'75':
+mob_75:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &343 Hoglin &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &340 Hoglin&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Hoglin Slayer'
   name: Hoglin Hunter
   points: 5
-  required-progress: 43
+  required-progress: 40
   type: kill-mob
   variable: Hoglin
-'76':
+mob_76:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &353 Zoglin &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &329 Zoglin&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Zoglin Slayer'
   name: Zoglin Hunter
-  points: 5
-  required-progress: 53
+  points: 4
+  required-progress: 29
   type: kill-mob
   variable: Zoglin
-'77':
+mob_77:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &318 Piglin_Brute &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &337 Piglin_Brute&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f5x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Piglin_Brute Slayer'
   name: Piglin_Brute Hunter
   points: 5
-  required-progress: 18
+  required-progress: 37
   type: kill-mob
   variable: Piglin_Brute
-'78':
+mob_78:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &359 Warden &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &322 Warden&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Warden Slayer'
   name: Warden Hunter
-  points: 5
-  required-progress: 59
+  points: 4
+  required-progress: 22
   type: kill-mob
   variable: Warden
-'8':
+mob_8:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &323 Pig &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &320 Pig&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Pig Slayer'
   name: Pig Hunter
-  points: 5
-  required-progress: 23
+  points: 4
+  required-progress: 20
   type: kill-mob
   variable: Pig
-'9':
+mob_9:
   item:
     lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7kill &323 Baby_Piglin &7Mobs."
+    - '&8  &7To complete this quest, you must'
+    - '&8  &7kill &321 Baby_Piglin&7.'
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f5x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - '&8  &7EXP: &f4x'
+    - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Stone_Sword
+    material: STONE_SWORD
     name: '&e&lQUEST:&f Baby_Piglin Slayer'
   name: Baby_Piglin Hunter
-  points: 5
-  required-progress: 23
+  points: 4
+  required-progress: 21
   type: kill-mob
   variable: Baby_Piglin

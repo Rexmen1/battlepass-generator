@@ -1,8 +1,8 @@
-'1':
+smelt_1:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &327 Baked_Potato &7items."
+    - "&8 \xBB &7Smelt items to create &326 Baked_Potato&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -10,17 +10,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Baked_Potato
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Baked_Potato Smelter'
   name: Baked_Potato Smelter
   points: 4
-  required-progress: 27
+  required-progress: 26
   type: smelt
   variable: Baked_Potato
-'10':
+smelt_10:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &357 Stone &7items."
+    - "&8 \xBB &7Smelt items to create &325 Stone&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -28,17 +28,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Stone
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Stone Smelter'
   name: Stone Smelter
   points: 4
-  required-progress: 57
+  required-progress: 25
   type: smelt
   variable: Stone
-'11':
+smelt_11:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &338 Smooth_Stone &7items."
+    - "&8 \xBB &7Smelt items to create &320 Smooth_Stone&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -46,35 +46,35 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Smooth_Stone
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Smooth_Stone Smelter'
   name: Smooth_Stone Smelter
   points: 4
-  required-progress: 38
+  required-progress: 20
   type: smelt
   variable: Smooth_Stone
-'12':
+smelt_12:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &351 Cracked_Stone_Bricks &7items."
+    - "&8 \xBB &7Smelt items to create &336 Cracked_Stone_Bricks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cracked_Stone_Bricks
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cracked_Stone_Bricks Smelter'
   name: Cracked_Stone_Bricks Smelter
-  points: 4
-  required-progress: 51
+  points: 5
+  required-progress: 36
   type: smelt
   variable: Cracked_Stone_Bricks
-'13':
+smelt_13:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &349 Deepslate &7items."
+    - "&8 \xBB &7Smelt items to create &320 Deepslate&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -82,17 +82,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Deepslate
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Deepslate Smelter'
   name: Deepslate Smelter
   points: 4
-  required-progress: 49
+  required-progress: 20
   type: smelt
   variable: Deepslate
-'14':
+smelt_14:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &352 Cracked_Deepslate_Bricks &7items."
+    - "&8 \xBB &7Smelt items to create &328 Cracked_Deepslate_Bricks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -100,35 +100,35 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cracked_Deepslate_Bricks
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cracked_Deepslate_Bricks Smelter'
   name: Cracked_Deepslate_Bricks Smelter
   points: 4
-  required-progress: 52
+  required-progress: 28
   type: smelt
   variable: Cracked_Deepslate_Bricks
-'15':
+smelt_15:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &355 Cracked_Deepslate_Tiles &7items."
+    - "&8 \xBB &7Smelt items to create &339 Cracked_Deepslate_Tiles&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cracked_Deepslate_Tiles
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cracked_Deepslate_Tiles Smelter'
   name: Cracked_Deepslate_Tiles Smelter
-  points: 4
-  required-progress: 55
+  points: 5
+  required-progress: 39
   type: smelt
   variable: Cracked_Deepslate_Tiles
-'16':
+smelt_16:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &318 Smooth_Sandstone &7items."
+    - "&8 \xBB &7Smelt items to create &323 Smooth_Sandstone&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -136,17 +136,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Smooth_Sandstone
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Smooth_Sandstone Smelter'
   name: Smooth_Sandstone Smelter
   points: 4
-  required-progress: 18
+  required-progress: 23
   type: smelt
   variable: Smooth_Sandstone
-'17':
+smelt_17:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &330 Smooth_Red_Sandstone &7items."
+    - "&8 \xBB &7Smelt items to create &326 Smooth_Red_Sandstone&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -154,17 +154,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Smooth_Red_Sandstone
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Smooth_Red_Sandstone Smelter'
   name: Smooth_Red_Sandstone Smelter
   points: 4
-  required-progress: 30
+  required-progress: 26
   type: smelt
   variable: Smooth_Red_Sandstone
-'18':
+smelt_18:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &346 Cracked_Nether_Bricks &7items."
+    - "&8 \xBB &7Smelt items to create &316 Cracked_Nether_Bricks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -172,71 +172,71 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cracked_Nether_Bricks
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cracked_Nether_Bricks Smelter'
   name: Cracked_Nether_Bricks Smelter
   points: 4
-  required-progress: 46
+  required-progress: 16
   type: smelt
   variable: Cracked_Nether_Bricks
-'19':
+smelt_19:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &349 Smooth_Basalt &7items."
+    - "&8 \xBB &7Smelt items to create &340 Smooth_Basalt&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Smooth_Basalt
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Smooth_Basalt Smelter'
   name: Smooth_Basalt Smelter
-  points: 4
-  required-progress: 49
+  points: 5
+  required-progress: 40
   type: smelt
   variable: Smooth_Basalt
-'2':
+smelt_2:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &320 Dried_Kelp &7items."
+    - "&8 \xBB &7Smelt items to create &331 Dried_Kelp&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Dried_Kelp
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Dried_Kelp Smelter'
   name: Dried_Kelp Smelter
-  points: 4
-  required-progress: 20
+  points: 5
+  required-progress: 31
   type: smelt
   variable: Dried_Kelp
-'20':
+smelt_20:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &342 Cracked_Polished_Blackstone_Bricks &7items."
+    - "&8 \xBB &7Smelt items to create &336 Cracked_Polished_Blackstone_Bricks&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cracked_Polished_Blackstone_Bricks
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cracked_Polished_Blackstone_Bricks Smelter'
   name: Cracked_Polished_Blackstone_Bricks Smelter
-  points: 4
-  required-progress: 42
+  points: 5
+  required-progress: 36
   type: smelt
   variable: Cracked_Polished_Blackstone_Bricks
-'21':
+smelt_21:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &335 Smooth_Quartz &7items."
+    - "&8 \xBB &7Smelt items to create &329 Smooth_Quartz&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -244,17 +244,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Smooth_Quartz
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Smooth_Quartz Smelter'
   name: Smooth_Quartz Smelter
   points: 4
-  required-progress: 35
+  required-progress: 29
   type: smelt
   variable: Smooth_Quartz
-'22':
+smelt_22:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &352 Terracotta &7items."
+    - "&8 \xBB &7Smelt items to create &326 Terracotta&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -262,17 +262,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Terracotta
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Terracotta Smelter'
   name: Terracotta Smelter
   points: 4
-  required-progress: 52
+  required-progress: 26
   type: smelt
   variable: Terracotta
-'23':
+smelt_23:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &361 Matching_Glazed_Terracotta &7items."
+    - "&8 \xBB &7Smelt items to create &322 Matching_Glazed_Terracotta&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -280,17 +280,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Matching_Glazed_Terracotta
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Matching_Glazed_Terracotta Smelter'
   name: Matching_Glazed_Terracotta Smelter
   points: 4
-  required-progress: 61
+  required-progress: 22
   type: smelt
   variable: Matching_Glazed_Terracotta
-'24':
+smelt_24:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &330 Glass &7items."
+    - "&8 \xBB &7Smelt items to create &323 Glass&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -298,125 +298,125 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Glass
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Glass Smelter'
   name: Glass Smelter
   points: 4
-  required-progress: 30
+  required-progress: 23
   type: smelt
   variable: Glass
-'25':
+smelt_25:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &317 Sponge &7items."
+    - "&8 \xBB &7Smelt items to create &340 Sponge&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Sponge
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Sponge Smelter'
   name: Sponge Smelter
-  points: 4
-  required-progress: 17
+  points: 5
+  required-progress: 40
   type: smelt
   variable: Sponge
-'26':
+smelt_26:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &340 Charcoal &7items."
+    - "&8 \xBB &7Smelt items to create &335 Charcoal&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Charcoal
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Charcoal Smelter'
   name: Charcoal Smelter
-  points: 4
-  required-progress: 40
+  points: 5
+  required-progress: 35
   type: smelt
   variable: Charcoal
-'27':
+smelt_27:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &327 Popped_Chorus_Fruit &7items."
+    - "&8 \xBB &7Smelt items to create &338 Popped_Chorus_Fruit&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Popped_Chorus_Fruit
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Popped_Chorus_Fruit Smelter'
   name: Popped_Chorus_Fruit Smelter
-  points: 4
-  required-progress: 27
+  points: 5
+  required-progress: 38
   type: smelt
   variable: Popped_Chorus_Fruit
-'28':
+smelt_28:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &358 Lime_Dye &7items."
+    - "&8 \xBB &7Smelt items to create &337 Lime_Dye&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Lime_Dye
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Lime_Dye Smelter'
   name: Lime_Dye Smelter
-  points: 4
-  required-progress: 58
+  points: 5
+  required-progress: 37
   type: smelt
   variable: Lime_Dye
-'29':
+smelt_29:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &351 Green_Dye &7items."
+    - "&8 \xBB &7Smelt items to create &336 Green_Dye&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Green_Dye
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Green_Dye Smelter'
   name: Green_Dye Smelter
-  points: 4
-  required-progress: 51
+  points: 5
+  required-progress: 36
   type: smelt
   variable: Green_Dye
-'3':
+smelt_3:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &316 Steak &7items."
+    - "&8 \xBB &7Smelt items to create &340 Steak&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Steak
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Steak Smelter'
   name: Steak Smelter
-  points: 4
-  required-progress: 16
+  points: 5
+  required-progress: 40
   type: smelt
   variable: Steak
-'30':
+smelt_30:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &321 Brick &7items."
+    - "&8 \xBB &7Smelt items to create &316 Brick&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -424,35 +424,35 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Brick
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Brick Smelter'
   name: Brick Smelter
   points: 4
-  required-progress: 21
+  required-progress: 16
   type: smelt
   variable: Brick
-'31':
+smelt_31:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &357 Nether_Brick &7items."
+    - "&8 \xBB &7Smelt items to create &337 Nether_Brick&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Nether_Brick
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Nether_Brick Smelter'
   name: Nether_Brick Smelter
-  points: 4
-  required-progress: 57
+  points: 5
+  required-progress: 37
   type: smelt
   variable: Nether_Brick
-'32':
+smelt_32:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &356 Iron_Ingot &7items."
+    - "&8 \xBB &7Smelt items to create &324 Iron_Ingot&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -460,17 +460,17 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Iron_Ingot
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Iron_Ingot Smelter'
   name: Iron_Ingot Smelter
   points: 4
-  required-progress: 56
+  required-progress: 24
   type: smelt
   variable: Iron_Ingot
-'33':
+smelt_33:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &330 Copper_Ingot &7items."
+    - "&8 \xBB &7Smelt items to create &329 Copper_Ingot&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -478,35 +478,35 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Copper_Ingot
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Copper_Ingot Smelter'
   name: Copper_Ingot Smelter
   points: 4
-  required-progress: 30
+  required-progress: 29
   type: smelt
   variable: Copper_Ingot
-'34':
+smelt_34:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &334 Gold_Ingot &7items."
+    - "&8 \xBB &7Smelt items to create &340 Gold_Ingot&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Gold_Ingot
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Gold_Ingot Smelter'
   name: Gold_Ingot Smelter
-  points: 4
-  required-progress: 34
+  points: 5
+  required-progress: 40
   type: smelt
   variable: Gold_Ingot
-'35':
+smelt_35:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &358 Netherite_Scrap &7items."
+    - "&8 \xBB &7Smelt items to create &321 Netherite_Scrap&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -514,71 +514,71 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Netherite_Scrap
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Netherite_Scrap Smelter'
   name: Netherite_Scrap Smelter
   points: 4
-  required-progress: 58
+  required-progress: 21
   type: smelt
   variable: Netherite_Scrap
-'36':
+smelt_36:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &326 Redstone_Dust &7items."
+    - "&8 \xBB &7Smelt items to create &334 Redstone_Dust&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Redstone_Dust
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Redstone_Dust Smelter'
   name: Redstone_Dust Smelter
-  points: 4
-  required-progress: 26
+  points: 5
+  required-progress: 34
   type: smelt
   variable: Redstone_Dust
-'37':
+smelt_37:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &332 Coal &7items."
+    - "&8 \xBB &7Smelt items to create &332 Coal&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Coal
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Coal Smelter'
   name: Coal Smelter
-  points: 4
+  points: 5
   required-progress: 32
   type: smelt
   variable: Coal
-'38':
+smelt_38:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &319 Emerald &7items."
+    - "&8 \xBB &7Smelt items to create &332 Emerald&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Emerald
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Emerald Smelter'
   name: Emerald Smelter
-  points: 4
-  required-progress: 19
+  points: 5
+  required-progress: 32
   type: smelt
   variable: Emerald
-'39':
+smelt_39:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &322 Lapis_Lazuli &7items."
+    - "&8 \xBB &7Smelt items to create &324 Lapis_Lazuli&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -586,35 +586,35 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Lapis_Lazuli
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Lapis_Lazuli Smelter'
   name: Lapis_Lazuli Smelter
   points: 4
-  required-progress: 22
+  required-progress: 24
   type: smelt
   variable: Lapis_Lazuli
-'4':
+smelt_4:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &362 Cooked_Porkchop &7items."
+    - "&8 \xBB &7Smelt items to create &333 Cooked_Porkchop&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cooked_Porkchop
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cooked_Porkchop Smelter'
   name: Cooked_Porkchop Smelter
-  points: 4
-  required-progress: 62
+  points: 5
+  required-progress: 33
   type: smelt
   variable: Cooked_Porkchop
-'40':
+smelt_40:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &364 Diamond &7items."
+    - "&8 \xBB &7Smelt items to create &321 Diamond&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -622,71 +622,71 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Diamond
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Diamond Smelter'
   name: Diamond Smelter
   points: 4
-  required-progress: 64
+  required-progress: 21
   type: smelt
   variable: Diamond
-'41':
+smelt_41:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &364 Nether_Quartz &7items."
+    - "&8 \xBB &7Smelt items to create &331 Nether_Quartz&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Nether_Quartz
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Nether_Quartz Smelter'
   name: Nether_Quartz Smelter
-  points: 4
-  required-progress: 64
+  points: 5
+  required-progress: 31
   type: smelt
   variable: Nether_Quartz
-'5':
+smelt_5:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &321 Cooked_Mutton &7items."
+    - "&8 \xBB &7Smelt items to create &338 Cooked_Mutton&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cooked_Mutton
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cooked_Mutton Smelter'
   name: Cooked_Mutton Smelter
-  points: 4
-  required-progress: 21
+  points: 5
+  required-progress: 38
   type: smelt
   variable: Cooked_Mutton
-'6':
+smelt_6:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &328 Cooked_Chicken &7items."
+    - "&8 \xBB &7Smelt items to create &335 Cooked_Chicken&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cooked_Chicken
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cooked_Chicken Smelter'
   name: Cooked_Chicken Smelter
-  points: 4
-  required-progress: 28
+  points: 5
+  required-progress: 35
   type: smelt
   variable: Cooked_Chicken
-'7':
+smelt_7:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &345 Cooked_Rabbit &7items."
+    - "&8 \xBB &7Smelt items to create &319 Cooked_Rabbit&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -694,35 +694,35 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cooked_Rabbit
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cooked_Rabbit Smelter'
   name: Cooked_Rabbit Smelter
   points: 4
-  required-progress: 45
+  required-progress: 19
   type: smelt
   variable: Cooked_Rabbit
-'8':
+smelt_8:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &357 Cooked_Cod &7items."
+    - "&8 \xBB &7Smelt items to create &333 Cooked_Cod&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f5x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cooked_Cod
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cooked_Cod Smelter'
   name: Cooked_Cod Smelter
-  points: 4
-  required-progress: 57
+  points: 5
+  required-progress: 33
   type: smelt
   variable: Cooked_Cod
-'9':
+smelt_9:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Smelt &326 Cooked_Salmon &7items."
+    - "&8 \xBB &7Smelt items to create &329 Cooked_Salmon&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -730,9 +730,9 @@
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cooked_Salmon
-    name: '&e&lQUEST:&f Smelting Expert'
+    name: '&e&lQUEST:&f Cooked_Salmon Smelter'
   name: Cooked_Salmon Smelter
   points: 4
-  required-progress: 26
+  required-progress: 29
   type: smelt
   variable: Cooked_Salmon
