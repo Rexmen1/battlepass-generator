@@ -1,0 +1,303 @@
+actions-version: 2
+
+category:
+  start:
+    date: "01/09/2025"
+    time: "10:00"
+  end:
+    date: "14/09/2025"
+    time: "22:00"
+  name: "Builder's Festival"
+  required-permission: ""
+  show-without-permission: true
+  see-quests-when-not-active: true
+  item:
+    material: "BRICKS"
+    amount: 1
+    name: "&6Builder's Festival"
+    lore:
+      - "&eBuilding themed event quests"
+      - "&e01/09/2025 - 14/09/2025"
+      - ""
+      - "%status%"
+
+quests:
+  builder_1:
+    type: block-place
+    name: Stone Builder
+    variable: Stone_Bricks
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Stone Architect'
+      material: Stone_Bricks
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &364 Stone Bricks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_2:
+    type: block-place
+    name: Brick Layer
+    variable: Bricks
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Brick Builder'
+      material: Bricks
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &364 Bricks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_3:
+    type: block-place
+    name: Wood Crafter
+    variable: Oak_Planks
+    required-progress: 128
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Wood Builder'
+      material: Oak_Planks
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &3128 Oak Planks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_4:
+    type: block-place
+    name: Glass Artist
+    variable: Glass
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Glass Master'
+      material: Glass
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &348 Glass blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_5:
+    type: block-place
+    name: Concrete Artist
+    variable: White_Concrete
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Concrete Builder'
+      material: White_Concrete
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &364 White Concrete blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_6:
+    type: block-place
+    name: Wool Decorator
+    variable: Red_Wool
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Wool Artist'
+      material: Red_Wool
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &348 Red Wool blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_7:
+    type: block-place
+    name: Terracotta Artist
+    variable: Terracotta
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Clay Builder'
+      material: Terracotta
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &348 Terracotta blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_8:
+    type: block-place
+    name: Quartz Builder
+    variable: Quartz_Block
+    required-progress: 32
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Quartz Master'
+      material: Quartz_Block
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &332 Quartz Blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_9:
+    type: block-place
+    name: Sandstone Architect
+    variable: Sandstone
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Desert Builder'
+      material: Sandstone
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &364 Sandstone blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_10:
+    type: block-place
+    name: Light Master
+    variable: Glowstone
+    required-progress: 32
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Light Builder'
+      material: Glowstone
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &332 Glowstone blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_11:
+    type: block-place
+    name: Prismarine Builder
+    variable: Prismarine
+    required-progress: 32
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Ocean Builder'
+      material: Prismarine
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &332 Prismarine blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_12:
+    type: block-place
+    name: Nether Builder
+    variable: Nether_Bricks
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Nether Architect'
+      material: Nether_Bricks
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &348 Nether Bricks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_13:
+    type: block-place
+    name: End Builder
+    variable: Purpur_Block
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f End Architect'
+      material: Purpur_Block
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &348 Purpur Blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  builder_14:
+    type: block-place
+    name: Lighting Expert
+    variable: Lantern
+    required-progress: 32
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Light Master'
+      material: Lantern
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &332 Lanterns&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'

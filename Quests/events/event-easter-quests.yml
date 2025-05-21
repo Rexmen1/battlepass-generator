@@ -1,0 +1,289 @@
+actions-version: 2
+
+category:
+  start:
+    date: "14/04/2025"
+    time: "10:00"
+  end:
+    date: "27/04/2025"
+    time: "22:00"
+  name: "Easter Quests"
+  required-permission: ""
+  show-without-permission: true
+  see-quests-when-not-active: true
+  item:
+    material: "EGG"
+    amount: 1
+    name: "&6Easter Quests"
+    lore:
+      - "&eSpecial quests for easter event"
+      - "&e14/04/2025 - 27/04/2025"
+      - ""
+      - "%status%"
+
+quests:
+  easter_1:
+    type: block-break
+    name: Easter Egg Hunter
+    variable: Gold_Ore
+    required-progress: 25
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Golden Egg Hunter'
+      material: Gold_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &325 Gold Ore &7blocks.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_2:
+    type: kill-mob
+    name: Bunny Friend
+    variable: Rabbit
+    required-progress: 20
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Easter Bunny Hunter'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Find and hunt &320 Rabbits&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_3:
+    type: consume
+    name: Sweet Tooth
+    variable: Cookie
+    required-progress: 32
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Easter Cookie Feast'
+      material: Cookie
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Eat &332 Cookies&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_4:
+    type: smelt
+    name: Easter Baker
+    variable: Cake
+    required-progress: 15
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Easter Treat Maker'
+      material: Cake
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Smelt items to create &315 Cakes&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_5:
+    type: block-place
+    name: Easter Garden
+    variable: Carrot
+    required-progress: 40
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Carrot Planter'
+      material: Carrot
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Plant &340 Carrots&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_6:
+    type: shear
+    name: Wool Collector
+    required-progress: 25
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Easter Wool'
+      material: Shears
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Shear &325 sheep&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_7:
+    type: move
+    name: Egg Hunt
+    required-progress: 2000
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Easter Explorer'
+      material: Compass
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Travel &32000 blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_8:
+    type: block-break
+    name: Diamond Hunter
+    variable: Diamond_Ore
+    required-progress: 15
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Easter Gems'
+      material: Diamond_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &315 Diamond Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_9:
+    type: kill-mob
+    name: Chicken Hunter
+    variable: Chicken
+    required-progress: 30
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Easter Chicken'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &330 Chickens&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_10:
+    type: consume
+    name: Golden Treat
+    variable: Golden_Apple
+    required-progress: 10
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Golden Easter Apple'
+      material: Golden_Apple
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Eat &310 Golden Apples&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_11:
+    type: gain-experience
+    name: Easter Scholar
+    required-progress: 1500
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Easter Experience'
+      material: Experience_Bottle
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Gain &31500 experience points&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_12:
+    type: smelt
+    name: Sweet Baker
+    variable: Bread
+    required-progress: 24
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Easter Bread'
+      material: Bread
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Smelt items to create &324 Bread&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_13:
+    type: block-break
+    name: Sweet Gatherer
+    variable: Sugar_Cane
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Easter Sugar'
+      material: Sugar_Cane
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Break &364 Sugar Cane&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  easter_14:
+    type: milk
+    name: Easter Dairy
+    required-progress: 20
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Easter Milk'
+      material: Bucket
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Milk &320 cows&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'

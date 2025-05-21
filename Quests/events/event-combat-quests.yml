@@ -1,0 +1,289 @@
+actions-version: 2
+
+category:
+  start:
+    date: "01/08/2025"
+    time: "10:00"
+  end:
+    date: "14/08/2025"
+    time: "22:00"
+  name: "Combat Festival"
+  required-permission: ""
+  show-without-permission: true
+  see-quests-when-not-active: true
+  item:
+    material: "DIAMOND_SWORD"
+    amount: 1
+    name: "&6Combat Festival"
+    lore:
+      - "&eCombat themed event quests"
+      - "&e01/08/2025 - 14/08/2025"
+      - ""
+      - "%status%"
+
+quests:
+  combat_1:
+    type: kill-mob
+    name: Undead Hunter
+    variable: Zombie
+    required-progress: 50
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Zombie Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &350 Zombies&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_2:
+    type: kill-mob
+    name: Skeleton Warrior
+    variable: Skeleton
+    required-progress: 40
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Skeleton Hunter'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &340 Skeletons&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_3:
+    type: kill-mob
+    name: Spider Hunter
+    variable: Spider
+    required-progress: 35
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Spider Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &335 Spiders&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_4:
+    type: kill-mob
+    name: Creeper Hunter
+    variable: Creeper
+    required-progress: 25
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Creeper Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &325 Creepers&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_5:
+    type: kill-mob
+    name: Ghost Hunter
+    variable: Phantom
+    required-progress: 15
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Phantom Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &315 Phantoms&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_6:
+    type: kill-mob
+    name: Cave Explorer
+    variable: Cave_Spider
+    required-progress: 30
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Cave Spider Hunter'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &330 Cave Spiders&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_7:
+    type: kill-mob
+    name: Blaze Hunter
+    variable: Blaze
+    required-progress: 20
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Blaze Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &320 Blazes&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_8:
+    type: kill-mob
+    name: Slime Hunter
+    variable: Minecraft_Slime
+    required-progress: 25
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Slime Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &325 Slimes&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_9:
+    type: kill-mob
+    name: Witch Hunter
+    variable: Witch
+    required-progress: 20
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Witch Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &320 Witches&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_10:
+    type: kill-mob
+    name: Drowned Hunter
+    variable: Drowned
+    required-progress: 30
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Drowned Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &330 Drowned&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_11:
+    type: kill-mob
+    name: Guardian Hunter
+    variable: Guardian
+    required-progress: 25
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Guardian Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &325 Guardians&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_12:
+    type: kill-mob
+    name: Enderman Hunter
+    variable: Enderman
+    required-progress: 20
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Enderman Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &320 Endermen&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_13:
+    type: kill-mob
+    name: Piglin Hunter
+    variable: Piglin
+    required-progress: 25
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Piglin Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &325 Piglins&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  combat_14:
+    type: kill-mob
+    name: Wither Skeleton Hunter
+    variable: Wither_Skeleton
+    required-progress: 20
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Wither Hunter'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &320 Wither Skeletons&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'

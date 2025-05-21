@@ -1,0 +1,299 @@
+actions-version: 2
+
+category:
+  start:
+    date: "15/07/2025"
+    time: "10:00"
+  end:
+    date: "28/07/2025"
+    time: "22:00"
+  name: "Farming Festival"
+  required-permission: ""
+  show-without-permission: true
+  see-quests-when-not-active: true
+  item:
+    material: "WHEAT"
+    amount: 1
+    name: "&6Farming Festival"
+    lore:
+      - "&eFarming themed event quests"
+      - "&e15/07/2025 - 28/07/2025"
+      - ""
+      - "%status%"
+
+quests:
+  farming_1:
+    type: block-break
+    name: Wheat Harvester
+    variable: Wheat
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Wheat Farmer'
+      material: Wheat
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Harvest &364 Wheat&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_2:
+    type: block-place
+    name: Carrot Planter
+    variable: Carrot
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Carrot Farmer'
+      material: Carrot
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Plant &348 Carrots&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_3:
+    type: block-break
+    name: Potato Harvester
+    variable: Potato
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Potato Farmer'
+      material: Potato
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Harvest &348 Potatoes&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_4:
+    type: milk
+    name: Dairy Farmer
+    required-progress: 32
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Milk Collector'
+      material: Bucket
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Milk &332 cows&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_5:
+    type: block-break
+    name: Melon Harvester
+    variable: Melon
+    required-progress: 32
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Melon Farmer'
+      material: Melon
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Harvest &332 Melons&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_6:
+    type: block-break
+    name: Sugar Expert
+    variable: Sugar_Cane
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Sugar Cane Farmer'
+      material: Sugar_Cane
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Harvest &364 Sugar Cane&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_7:
+    type: shear
+    name: Wool Collector
+    required-progress: 32
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Sheep Shearer'
+      material: Shears
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Shear &332 sheep&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_8:
+    type: block-break
+    name: Pumpkin Harvester
+    variable: Pumpkin
+    required-progress: 32
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Pumpkin Farmer'
+      material: Pumpkin
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Harvest &332 Pumpkins&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_9:
+    type: block-break
+    name: Beetroot Harvester
+    variable: Beetroot
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Beetroot Farmer'
+      material: Beetroot
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Harvest &348 Beetroots&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_10:
+    type: block-break
+    name: Berry Picker
+    variable: Sweet_Berry_Bush
+    required-progress: 32
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Berry Collector'
+      material: Sweet_Berries
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Harvest &332 Sweet Berry Bushes&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_11:
+    type: block-place
+    name: Farmer Decorator
+    variable: Hay_Block
+    required-progress: 32
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Hay Bale Placer'
+      material: Hay_Block
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &332 Hay Bales&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_12:
+    type: block-break
+    name: Cactus Collector
+    variable: Cactus
+    required-progress: 32
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Cactus Farmer'
+      material: Cactus
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Break &332 Cacti&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_13:
+    type: block-place
+    name: Composter
+    variable: Composter
+    required-progress: 16
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Compost Master'
+      material: Composter
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &316 Composters&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  farming_14:
+    type: block-break
+    name: Bamboo Collector
+    variable: Bamboo
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Bamboo Farmer'
+      material: Bamboo
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Break &364 Bamboo&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'

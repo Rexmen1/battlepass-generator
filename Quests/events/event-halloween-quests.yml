@@ -1,0 +1,291 @@
+actions-version: 2
+
+category:
+  start:
+    date: "24/10/2025"
+    time: "10:00"
+  end:
+    date: "31/10/2025"
+    time: "23:59"
+  name: "Halloween Quests"
+  required-permission: ""
+  show-without-permission: true
+  see-quests-when-not-active: true
+  item:
+    material: "JACK_O_LANTERN"
+    amount: 1
+    name: "&6Halloween Quests"
+    lore:
+      - "&eSpooky quests for halloween event"
+      - "&e24/10/2025 - 31/10/2025"
+      - ""
+      - "%status%"
+
+quests:
+  halloween_1:
+    type: block-place
+    name: Spooky Decorator
+    variable: Jack_O_Lantern
+    required-progress: 30
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Pumpkin Master'
+      material: Jack_O_Lantern
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &330 Jack o Lanterns&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_2:
+    type: kill-mob
+    name: Spider Slayer
+    variable: Spider
+    required-progress: 40
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Spider Hunter'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &340 Spiders&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_3:
+    type: block-break
+    name: Pumpkin Harvester
+    variable: Pumpkin
+    required-progress: 50
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Pumpkin Collector'
+      material: Pumpkin
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Break &350 Pumpkins&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_4:
+    type: kill-mob
+    name: Zombie Hunter
+    variable: Zombie
+    required-progress: 45
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Zombie Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &345 Zombies&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_5:
+    type: consume
+    name: Sweet Tooth
+    variable: Pumpkin_Pie
+    required-progress: 25
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Pumpkin Pie Feast'
+      material: Pumpkin_Pie
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Eat &325 Pumpkin Pies&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_6:
+    type: kill-mob
+    name: Skeleton Hunter
+    variable: Skeleton
+    required-progress: 35
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Skeleton Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &335 Skeletons&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_7:
+    type: kill-mob
+    name: Cave Spider Hunter
+    variable: Cave_Spider
+    required-progress: 30
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Cave Spider Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &330 Cave Spiders&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_8:
+    type: block-break
+    name: Soul Collector
+    variable: Soul_Sand
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Soul Hunter'
+      material: Soul_Sand
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &364 Soul Sand&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_9:
+    type: kill-mob
+    name: Witch Hunter
+    variable: Witch
+    required-progress: 20
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Witch Slayer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &320 Witches&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_10:
+    type: consume
+    name: Golden Snack
+    variable: Golden_Carrot
+    required-progress: 16
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Golden Treat'
+      material: Golden_Carrot
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Eat &316 Golden Carrots&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_11:
+    type: sneak
+    name: Sneaky Ghost
+    required-progress: 600
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Ghost Walk'
+      material: Leather_Boots
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Sneak for &3600 seconds&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_12:
+    type: block-place
+    name: Spooky Lights
+    variable: Soul_Lantern
+    required-progress: 25
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Soul Light'
+      material: Soul_Lantern
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Place &325 Soul Lanterns&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_13:
+    type: kill-mob
+    name: Phantom Hunter
+    variable: Phantom
+    required-progress: 15
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Night Terror'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &315 Phantoms&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  halloween_14:
+    type: move
+    name: Night Walker
+    required-progress: 2000
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Night Explorer'
+      material: Compass
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Travel &32000 blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'

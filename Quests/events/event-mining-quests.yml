@@ -1,0 +1,301 @@
+actions-version: 2
+
+category:
+  start:
+    date: "01/07/2025"
+    time: "10:00"
+  end:
+    date: "14/07/2025"
+    time: "22:00"
+  name: "Mining Festival"
+  required-permission: ""
+  show-without-permission: true
+  see-quests-when-not-active: true
+  item:
+    material: "DIAMOND_PICKAXE"
+    amount: 1
+    name: "&6Mining Festival"
+    lore:
+      - "&eMining themed event quests"
+      - "&e01/07/2025 - 14/07/2025"
+      - ""
+      - "%status%"
+
+quests:
+  mining_1:
+    type: block-break
+    name: Iron Hunter
+    variable: Iron_Ore
+    required-progress: 32
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Iron Collector'
+      material: Iron_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &332 Iron Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_2:
+    type: block-break
+    name: Gold Seeker
+    variable: Gold_Ore
+    required-progress: 24
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Gold Rush'
+      material: Gold_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &324 Gold Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_3:
+    type: block-break
+    name: Diamond Expert
+    variable: Diamond_Ore
+    required-progress: 16
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Diamond Hunter'
+      material: Diamond_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &316 Diamond Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_4:
+    type: block-break
+    name: Redstone Engineer
+    variable: Redstone_Ore
+    required-progress: 32
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Redstone Master'
+      material: Redstone_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &332 Redstone Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_5:
+    type: block-break
+    name: Lapis Hunter
+    variable: Lapis_Ore
+    required-progress: 24
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Lapis Collector'
+      material: Lapis_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &324 Lapis Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_6:
+    type: block-break
+    name: Coal Miner
+    variable: Coal_Ore
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Coal Collector'
+      material: Coal_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &364 Coal Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_7:
+    type: block-break
+    name: Copper Expert
+    variable: Copper_Ore
+    required-progress: 48
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Copper Hunter'
+      material: Copper_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &348 Copper Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_8:
+    type: block-break
+    name: Deepslate Master
+    variable: Deepslate
+    required-progress: 128
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Deep Miner'
+      material: Deepslate
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &3128 Deepslate&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_9:
+    type: smelt
+    name: Iron Smelter
+    variable: Iron_Ingot
+    required-progress: 64
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Iron Worker'
+      material: Iron_Ingot
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Smelt items to create &364 Iron Ingots&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_10:
+    type: block-break
+    name: Ancient Debris Hunter
+    variable: Ancient_Debris
+    required-progress: 8
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Netherite Seeker'
+      material: Ancient_Debris
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &38 Ancient Debris&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_11:
+    type: smelt
+    name: Gold Refiner
+    variable: Gold_Ingot
+    required-progress: 48
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Gold Smelter'
+      material: Gold_Ingot
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Smelt items to create &348 Gold Ingots&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_12:
+    type: block-break
+    name: Stone Gatherer
+    variable: Stone
+    required-progress: 256
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Stone Collector'
+      material: Stone
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &3256 Stone&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_13:
+    type: block-break
+    name: Emerald Seeker
+    variable: Emerald_Ore
+    required-progress: 12
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Emerald Hunter'
+      material: Emerald_Ore
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &312 Emerald Ore&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  mining_14:
+    type: block-break
+    name: Obsidian Collector
+    variable: Obsidian
+    required-progress: 32
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Obsidian Master'
+      material: Obsidian
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &332 Obsidian&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'

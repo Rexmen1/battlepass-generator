@@ -1,0 +1,138 @@
+actions-version: 2
+
+category:
+  start:
+    date: "13/03/2025"
+    time: "00:00"
+  end:
+    date: "14/03/2025"
+    time: "23:59"
+  name: "Pi Day Festival"
+  required-permission: ""
+  show-without-permission: true
+  see-quests-when-not-active: true
+  item:
+    material: "PUMPKIN_PIE"
+    amount: 1
+    name: "&6Pi Day Festival"
+    lore:
+      - "&eMathematical pie-themed event quests"
+      - "&e13/03/2025 - 14/03/2025"
+      - ""
+      - "%status%"
+
+quests:
+  pi_1:
+    type: consume
+    name: Pi(e) Enthusiast
+    variable: Pumpkin_Pie
+    required-progress: 31
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Pi(e) Consumer'
+      material: Pumpkin_Pie
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Eat &331 Pumpkin Pies&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  pi_2:
+    type: block-break
+    name: Sugar Mathematician
+    variable: Sugar_Cane
+    required-progress: 41
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Sugar Collector'
+      material: Sugar_Cane
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Collect &341 Sugar Cane&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  pi_3:
+    type: block-break
+    name: Pumpkin Collector
+    variable: Pumpkin
+    required-progress: 31
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Pumpkin Hunter'
+      material: Pumpkin
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Collect &331 Pumpkins&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  pi_4:
+    type: smelt
+    name: Pi(e) Baker
+    variable: Pumpkin_Pie
+    required-progress: 14
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Master Baker'
+      material: Pumpkin_Pie
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Bake &314 Pumpkin Pies&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  pi_5:
+    type: collect
+    name: Egg Calculator
+    variable: Egg
+    required-progress: 31
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Egg Collection'
+      material: Egg
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Collect &331 Eggs&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  pi_6:
+    type: move
+    name: Circle Walker
+    required-progress: 314
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Pi Distance'
+      material: Compass
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Travel &3314 blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'

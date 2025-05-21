@@ -1,0 +1,292 @@
+actions-version: 2
+
+category:
+  start:
+    date: "15/08/2025"
+    time: "10:00"
+  end:
+    date: "28/08/2025"
+    time: "22:00"
+  name: "Explorer's Festival"
+  required-permission: ""
+  show-without-permission: true
+  see-quests-when-not-active: true
+  item:
+    material: "COMPASS"
+    amount: 1
+    name: "&6Explorer's Festival"
+    lore:
+      - "&eExploration themed event quests"
+      - "&e15/08/2025 - 28/08/2025"
+      - ""
+      - "%status%"
+
+quests:
+  explorer_1:
+    type: move
+    name: World Traveler
+    required-progress: 5000
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Great Journey'
+      material: Compass
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Travel &35000 blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_2:
+    type: swim
+    name: Ocean Explorer
+    required-progress: 2000
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Deep Diver'
+      material: Water_Bucket
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Swim &32000 blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_3:
+    type: sprint
+    name: Swift Runner
+    required-progress: 3000
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Speed Runner'
+      material: Sugar
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Sprint &33000 blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_4:
+    type: glide
+    name: Sky Explorer
+    required-progress: 2000
+    points: 5
+    item:
+      name: '&e&lEVENT:&f Sky Glider'
+      material: Elytra
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Glide &32000 blocks&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_5:
+    type: block-break
+    name: Mountain Climber
+    variable: Stone
+    required-progress: 128
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Rock Climber'
+      material: Stone
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &3128 Stone&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_6:
+    type: kill-mob
+    name: Ocean Hunter
+    variable: Guardian
+    required-progress: 30
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Sea Explorer'
+      material: Stone_Sword
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Kill &330 Guardians&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_7:
+    type: block-break
+    name: Nether Explorer
+    variable: Netherrack
+    required-progress: 128
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Nether Miner'
+      material: Netherrack
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &3128 Netherrack&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_8:
+    type: block-break
+    name: End Explorer
+    variable: End_Stone
+    required-progress: 64
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f End Adventurer'
+      material: End_Stone
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &364 End Stone&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_9:
+    type: block-break
+    name: Desert Explorer
+    variable: Sand
+    required-progress: 128
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Sand Collector'
+      material: Sand
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &3128 Sand&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_10:
+    type: block-break
+    name: Ice Explorer
+    variable: Ice
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Ice Collector'
+      material: Ice
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &364 Ice&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_11:
+    type: sneak
+    name: Sneaky Explorer
+    required-progress: 600
+    points: 4
+    item:
+      name: '&e&lEVENT:&f Silent Steps'
+      material: Leather_Boots
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Sneak for &3600 seconds&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_12:
+    type: block-break
+    name: Jungle Explorer
+    variable: Jungle_Log
+    required-progress: 64
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Jungle Adventurer'
+      material: Jungle_Log
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Collect &364 Jungle Logs&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_13:
+    type: block-break
+    name: Cave Explorer
+    variable: Deepslate
+    required-progress: 128
+    points: 4
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Deep Miner'
+      material: Deepslate
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &3128 Deepslate&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f4x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
+
+  explorer_14:
+    type: block-break
+    name: Ocean Explorer
+    variable: Prismarine
+    required-progress: 32
+    points: 5
+    anti-abuse: true
+    item:
+      name: '&e&lEVENT:&f Ocean Collector'
+      material: Prismarine
+      lore:
+        - '&8 » &7To complete this quest, you must'
+        - '&8 » &7Mine &332 Prismarine&7.'
+        - ''
+        - '&e&lINFORMATION'
+        - '&8 » &7EXP: &f5x'
+        - '&8 » &7%total_progress%&7/&e%required_progress%'
+        - ''
+        - '%progress_bar% &7(&a%percentage_progress%&7)'
