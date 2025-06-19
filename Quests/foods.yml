@@ -1,458 +1,62 @@
-food_1:
+common_food_10:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &327 Apple&7."
+    - "&8 \xBB &7Eat &313 Apple&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f3x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Apple
     name: '&e&lQUEST:&f Apple Consumer'
   name: Apple Consumer
-  points: 4
-  required-progress: 27
-  type: consume
-  variable: Apple
-food_10:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &325 Cooked_Mutton&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Cooked_Mutton
-    name: '&e&lQUEST:&f Cooked_Mutton Consumer'
-  name: Cooked_Mutton Consumer
-  points: 4
-  required-progress: 25
-  type: consume
-  variable: Cooked_Mutton
-food_11:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &311 Cooked_Porkchop&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Cooked_Porkchop
-    name: '&e&lQUEST:&f Cooked_Porkchop Consumer'
-  name: Cooked_Porkchop Consumer
-  points: 3
-  required-progress: 11
-  type: consume
-  variable: Cooked_Porkchop
-food_12:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &315 Cooked_Rabbit&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Cooked_Rabbit
-    name: '&e&lQUEST:&f Cooked_Rabbit Consumer'
-  name: Cooked_Rabbit Consumer
-  points: 3
-  required-progress: 15
-  type: consume
-  variable: Cooked_Rabbit
-food_13:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &328 Cooked_Salmon&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Cooked_Salmon
-    name: '&e&lQUEST:&f Cooked_Salmon Consumer'
-  name: Cooked_Salmon Consumer
-  points: 4
-  required-progress: 28
-  type: consume
-  variable: Cooked_Salmon
-food_14:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &329 Cookie&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Cookie
-    name: '&e&lQUEST:&f Cookie Consumer'
-  name: Cookie Consumer
-  points: 4
-  required-progress: 29
-  type: consume
-  variable: Cookie
-food_15:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &310 Dried_Kelp&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Dried_Kelp
-    name: '&e&lQUEST:&f Dried_Kelp Consumer'
-  name: Dried_Kelp Consumer
-  points: 3
-  required-progress: 10
-  type: consume
-  variable: Dried_Kelp
-food_16:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &318 Enchanted_Golden_Apple&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Enchanted_Golden_Apple
-    name: '&e&lQUEST:&f Enchanted_Golden_Apple Consumer'
-  name: Enchanted_Golden_Apple Consumer
-  points: 4
-  required-progress: 18
-  type: consume
-  variable: Enchanted_Golden_Apple
-food_17:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &316 Golden_Apple&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Golden_Apple
-    name: '&e&lQUEST:&f Golden_Apple Consumer'
-  name: Golden_Apple Consumer
-  points: 4
-  required-progress: 16
-  type: consume
-  variable: Golden_Apple
-food_18:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &311 Honey_Bottle&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Honey_Bottle
-    name: '&e&lQUEST:&f Honey_Bottle Consumer'
-  name: Honey_Bottle Consumer
-  points: 3
-  required-progress: 11
-  type: consume
-  variable: Honey_Bottle
-food_19:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &313 Mushroom_Stew&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Mushroom_Stew
-    name: '&e&lQUEST:&f Mushroom_Stew Consumer'
-  name: Mushroom_Stew Consumer
   points: 3
   required-progress: 13
   type: consume
-  variable: Mushroom_Stew
-food_2:
+  variable: Apple
+common_food_11:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &317 Baked_Potato&7."
+    - "&8 \xBB &7Eat &310 Baked_Potato&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7EXP: &f3x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Baked_Potato
     name: '&e&lQUEST:&f Baked_Potato Consumer'
   name: Baked_Potato Consumer
-  points: 4
-  required-progress: 17
+  points: 3
+  required-progress: 10
   type: consume
   variable: Baked_Potato
-food_20:
+common_food_12:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &322 Pufferfish&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Pufferfish
-    name: '&e&lQUEST:&f Pufferfish Consumer'
-  name: Pufferfish Consumer
-  points: 4
-  required-progress: 22
-  type: consume
-  variable: Pufferfish
-food_21:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &326 Rabbit_Stew&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Rabbit_Stew
-    name: '&e&lQUEST:&f Rabbit_Stew Consumer'
-  name: Rabbit_Stew Consumer
-  points: 4
-  required-progress: 26
-  type: consume
-  variable: Rabbit_Stew
-food_22:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &327 Beef&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Beef
-    name: '&e&lQUEST:&f Beef Consumer'
-  name: Beef Consumer
-  points: 4
-  required-progress: 27
-  type: consume
-  variable: Beef
-food_23:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &310 Chicken&7."
+    - "&8 \xBB &7Eat &312 Bread&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Chicken
-    name: '&e&lQUEST:&f Chicken Consumer'
-  name: Chicken Consumer
-  points: 3
-  required-progress: 10
-  type: consume
-  variable: Chicken
-food_24:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &325 Cod&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Cod
-    name: '&e&lQUEST:&f Cod Consumer'
-  name: Cod Consumer
-  points: 4
-  required-progress: 25
-  type: consume
-  variable: Cod
-food_25:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &312 Mutton&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Mutton
-    name: '&e&lQUEST:&f Mutton Consumer'
-  name: Mutton Consumer
-  points: 3
-  required-progress: 12
-  type: consume
-  variable: Mutton
-food_26:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &326 Porkchop&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Porkchop
-    name: '&e&lQUEST:&f Porkchop Consumer'
-  name: Porkchop Consumer
-  points: 4
-  required-progress: 26
-  type: consume
-  variable: Porkchop
-food_27:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &310 Rabbit&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Rabbit
-    name: '&e&lQUEST:&f Rabbit Consumer'
-  name: Rabbit Consumer
-  points: 3
-  required-progress: 10
-  type: consume
-  variable: Rabbit
-food_28:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &327 Salmon&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Salmon
-    name: '&e&lQUEST:&f Salmon Consumer'
-  name: Salmon Consumer
-  points: 4
-  required-progress: 27
-  type: consume
-  variable: Salmon
-food_29:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &313 Sweet_Berries&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Sweet_Berries
-    name: '&e&lQUEST:&f Sweet_Berries Consumer'
-  name: Sweet_Berries Consumer
-  points: 3
-  required-progress: 13
-  type: consume
-  variable: Sweet_Berries
-food_3:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &313 Beetroot_Soup&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Beetroot_Soup
-    name: '&e&lQUEST:&f Beetroot_Soup Consumer'
-  name: Beetroot_Soup Consumer
-  points: 3
-  required-progress: 13
-  type: consume
-  variable: Beetroot_Soup
-food_30:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &312 Tropical_Fish&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Tropical_Fish
-    name: '&e&lQUEST:&f Tropical_Fish Consumer'
-  name: Tropical_Fish Consumer
-  points: 3
-  required-progress: 12
-  type: consume
-  variable: Tropical_Fish
-food_4:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &329 Bread&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f4x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Bread
     name: '&e&lQUEST:&f Bread Consumer'
   name: Bread Consumer
-  points: 4
-  required-progress: 29
+  points: 3
+  required-progress: 12
   type: consume
   variable: Bread
-food_5:
+common_food_13:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &329 Carrot&7."
+    - "&8 \xBB &7Eat &316 Carrot&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -463,28 +67,10 @@ food_5:
     name: '&e&lQUEST:&f Carrot Consumer'
   name: Carrot Consumer
   points: 4
-  required-progress: 29
+  required-progress: 16
   type: consume
   variable: Carrot
-food_6:
-  item:
-    lore:
-    - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &314 Chorus_Fruit&7."
-    - ''
-    - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
-    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
-    - ''
-    - '%progress_bar% &7(&a%percentage_progress%&7)'
-    material: Chorus_Fruit
-    name: '&e&lQUEST:&f Chorus_Fruit Consumer'
-  name: Chorus_Fruit Consumer
-  points: 3
-  required-progress: 14
-  type: consume
-  variable: Chorus_Fruit
-food_7:
+common_food_14:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
@@ -502,11 +88,11 @@ food_7:
   required-progress: 16
   type: consume
   variable: Cooked_Beef
-food_8:
+common_food_15:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &326 Cooked_Chicken&7."
+    - "&8 \xBB &7Eat &319 Cooked_Chicken&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f4x"
@@ -517,24 +103,438 @@ food_8:
     name: '&e&lQUEST:&f Cooked_Chicken Consumer'
   name: Cooked_Chicken Consumer
   points: 4
-  required-progress: 26
+  required-progress: 19
   type: consume
   variable: Cooked_Chicken
-food_9:
+common_food_16:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Eat &312 Cooked_Cod&7."
+    - "&8 \xBB &7Eat &319 Cooked_Cod&7."
     - ''
     - '&e&lINFORMATION'
-    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7EXP: &f4x"
     - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cooked_Cod
     name: '&e&lQUEST:&f Cooked_Cod Consumer'
   name: Cooked_Cod Consumer
+  points: 4
+  required-progress: 19
+  type: consume
+  variable: Cooked_Cod
+common_food_17:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &318 Cooked_Mutton&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Cooked_Mutton
+    name: '&e&lQUEST:&f Cooked_Mutton Consumer'
+  name: Cooked_Mutton Consumer
+  points: 4
+  required-progress: 18
+  type: consume
+  variable: Cooked_Mutton
+common_food_18:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &318 Cooked_Porkchop&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Cooked_Porkchop
+    name: '&e&lQUEST:&f Cooked_Porkchop Consumer'
+  name: Cooked_Porkchop Consumer
+  points: 4
+  required-progress: 18
+  type: consume
+  variable: Cooked_Porkchop
+common_food_19:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &312 Cooked_Rabbit&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Cooked_Rabbit
+    name: '&e&lQUEST:&f Cooked_Rabbit Consumer'
+  name: Cooked_Rabbit Consumer
   points: 3
   required-progress: 12
   type: consume
-  variable: Cooked_Cod
+  variable: Cooked_Rabbit
+common_food_20:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &316 Cooked_Salmon&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Cooked_Salmon
+    name: '&e&lQUEST:&f Cooked_Salmon Consumer'
+  name: Cooked_Salmon Consumer
+  points: 4
+  required-progress: 16
+  type: consume
+  variable: Cooked_Salmon
+common_food_21:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &316 Cookie&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Cookie
+    name: '&e&lQUEST:&f Cookie Consumer'
+  name: Cookie Consumer
+  points: 4
+  required-progress: 16
+  type: consume
+  variable: Cookie
+common_food_22:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &316 Dried_Kelp&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Dried_Kelp
+    name: '&e&lQUEST:&f Dried_Kelp Consumer'
+  name: Dried_Kelp Consumer
+  points: 4
+  required-progress: 16
+  type: consume
+  variable: Dried_Kelp
+common_food_23:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &316 Beef&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Beef
+    name: '&e&lQUEST:&f Beef Consumer'
+  name: Beef Consumer
+  points: 4
+  required-progress: 16
+  type: consume
+  variable: Beef
+common_food_24:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &313 Chicken&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Chicken
+    name: '&e&lQUEST:&f Chicken Consumer'
+  name: Chicken Consumer
+  points: 3
+  required-progress: 13
+  type: consume
+  variable: Chicken
+common_food_25:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &312 Cod&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Cod
+    name: '&e&lQUEST:&f Cod Consumer'
+  name: Cod Consumer
+  points: 3
+  required-progress: 12
+  type: consume
+  variable: Cod
+common_food_26:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &316 Mutton&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Mutton
+    name: '&e&lQUEST:&f Mutton Consumer'
+  name: Mutton Consumer
+  points: 4
+  required-progress: 16
+  type: consume
+  variable: Mutton
+common_food_27:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &314 Porkchop&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Porkchop
+    name: '&e&lQUEST:&f Porkchop Consumer'
+  name: Porkchop Consumer
+  points: 3
+  required-progress: 14
+  type: consume
+  variable: Porkchop
+common_food_28:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &315 Rabbit&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Rabbit
+    name: '&e&lQUEST:&f Rabbit Consumer'
+  name: Rabbit Consumer
+  points: 3
+  required-progress: 15
+  type: consume
+  variable: Rabbit
+common_food_29:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &310 Salmon&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Salmon
+    name: '&e&lQUEST:&f Salmon Consumer'
+  name: Salmon Consumer
+  points: 3
+  required-progress: 10
+  type: consume
+  variable: Salmon
+common_food_30:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &317 Sweet_Berries&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f4x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Sweet_Berries
+    name: '&e&lQUEST:&f Sweet_Berries Consumer'
+  name: Sweet_Berries Consumer
+  points: 4
+  required-progress: 17
+  type: consume
+  variable: Sweet_Berries
+hard_food_1:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &33 Enchanted_Golden_Apple&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Enchanted_Golden_Apple
+    name: '&e&lQUEST:&f Enchanted_Golden_Apple Consumer'
+  name: Enchanted_Golden_Apple Consumer
+  points: 3
+  required-progress: 3
+  type: consume
+  variable: Enchanted_Golden_Apple
+hard_food_2:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &32 Golden_Apple&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Golden_Apple
+    name: '&e&lQUEST:&f Golden_Apple Consumer'
+  name: Golden_Apple Consumer
+  points: 3
+  required-progress: 2
+  type: consume
+  variable: Golden_Apple
+rare_food_3:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &37 Beetroot_Soup&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Beetroot_Soup
+    name: '&e&lQUEST:&f Beetroot_Soup Consumer'
+  name: Beetroot_Soup Consumer
+  points: 3
+  required-progress: 7
+  type: consume
+  variable: Beetroot_Soup
+rare_food_4:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &36 Chorus_Fruit&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Chorus_Fruit
+    name: '&e&lQUEST:&f Chorus_Fruit Consumer'
+  name: Chorus_Fruit Consumer
+  points: 3
+  required-progress: 6
+  type: consume
+  variable: Chorus_Fruit
+rare_food_5:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &35 Honey_Bottle&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Honey_Bottle
+    name: '&e&lQUEST:&f Honey_Bottle Consumer'
+  name: Honey_Bottle Consumer
+  points: 3
+  required-progress: 5
+  type: consume
+  variable: Honey_Bottle
+rare_food_6:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &36 Mushroom_Stew&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Mushroom_Stew
+    name: '&e&lQUEST:&f Mushroom_Stew Consumer'
+  name: Mushroom_Stew Consumer
+  points: 3
+  required-progress: 6
+  type: consume
+  variable: Mushroom_Stew
+rare_food_7:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &39 Pufferfish&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Pufferfish
+    name: '&e&lQUEST:&f Pufferfish Consumer'
+  name: Pufferfish Consumer
+  points: 3
+  required-progress: 9
+  type: consume
+  variable: Pufferfish
+rare_food_8:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &36 Rabbit_Stew&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Rabbit_Stew
+    name: '&e&lQUEST:&f Rabbit_Stew Consumer'
+  name: Rabbit_Stew Consumer
+  points: 3
+  required-progress: 6
+  type: consume
+  variable: Rabbit_Stew
+rare_food_9:
+  item:
+    lore:
+    - "&8 \xBB &7To complete this quest, you must"
+    - "&8 \xBB &7Eat &36 Tropical_Fish&7."
+    - ''
+    - '&e&lINFORMATION'
+    - "&8 \xBB &7EXP: &f3x"
+    - "&8 \xBB &7%total_progress%&7/&e%required_progress%"
+    - ''
+    - '%progress_bar% &7(&a%percentage_progress%&7)'
+    material: Tropical_Fish
+    name: '&e&lQUEST:&f Tropical_Fish Consumer'
+  name: Tropical_Fish Consumer
+  points: 3
+  required-progress: 6
+  type: consume
+  variable: Tropical_Fish

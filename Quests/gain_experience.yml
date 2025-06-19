@@ -2,7 +2,7 @@ exp_2:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Gain a total of &31997 experience points&7."
+    - "&8 \xBB &7Gain a total of &3630 experience points&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -13,5 +13,5 @@ exp_2:
     name: '&e&lQUEST:&f Experience Hunter'
   name: Experience Hunter
   points: 5
-  required-progress: 1997
+  required-progress: 630
   type: gain-experience

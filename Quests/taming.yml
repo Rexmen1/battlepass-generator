@@ -2,7 +2,7 @@ tame_1:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Tame &34 Donkey&7."
+    - "&8 \xBB &7Tame &35 Donkey&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f3x"
@@ -13,14 +13,14 @@ tame_1:
     name: '&e&lQUEST:&f Donkey Tamer'
   name: Donkey Tamer
   points: 3
-  required-progress: 4
+  required-progress: 5
   type: tame
   variable: Donkey
 tame_2:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Tame &33 Horse&7."
+    - "&8 \xBB &7Tame &37 Horse&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f3x"
@@ -31,14 +31,14 @@ tame_2:
     name: '&e&lQUEST:&f Horse Tamer'
   name: Horse Tamer
   points: 3
-  required-progress: 3
+  required-progress: 7
   type: tame
   variable: Horse
 tame_3:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Tame &33 Cat&7."
+    - "&8 \xBB &7Tame &35 Cat&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f3x"
@@ -49,14 +49,14 @@ tame_3:
     name: '&e&lQUEST:&f Cat Tamer'
   name: Cat Tamer
   points: 3
-  required-progress: 3
+  required-progress: 5
   type: tame
   variable: Cat
 tame_4:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Tame &34 Parrot&7."
+    - "&8 \xBB &7Tame &33 Parrot&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f3x"
@@ -67,14 +67,14 @@ tame_4:
     name: '&e&lQUEST:&f Parrot Tamer'
   name: Parrot Tamer
   points: 3
-  required-progress: 4
+  required-progress: 3
   type: tame
   variable: Parrot
 tame_5:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Tame &34 Mule&7."
+    - "&8 \xBB &7Tame &33 Mule&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f3x"
@@ -85,6 +85,6 @@ tame_5:
     name: '&e&lQUEST:&f Mule Tamer'
   name: Mule Tamer
   points: 3
-  required-progress: 4
+  required-progress: 3
   type: tame
   variable: Mule

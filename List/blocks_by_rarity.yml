@@ -1,0 +1,76 @@
+# Blocks Rarity Classification for Quest Generation
+# Mining requirements: common (16-32), rare (8-16), hard (4-8)
+
+common:
+  # Basic/easily obtainable blocks
+  - Oak_Log
+  - Birch_Log
+  - Jungle_Log
+  - Spruce_Log
+  - Dark_Oak_Log
+  - Acacia_Log
+  - Stone
+  - Andesite
+  - Diorite
+  - Granite
+  - Cobblestone
+  - Mossy_Cobblestone
+  - Dirt
+  - Grass_Block
+  - Sand
+  - Gravel
+  - Clay
+  - Ice
+  - Snow_Block
+  - Netherrack
+  - Basalt
+  - Blackstone
+  - Soul_Sand
+  - Soul_Soil
+  - Calcite
+  - Deepslate
+  - Tuff
+  - Terracotta
+  - Orange_Terracotta
+  - White_Terracotta
+  - Yellow_Terracotta
+  - Light_Gray_Terracotta
+  - Brown_Terracotta
+  - Red_Terracotta
+
+rare:
+  # Moderate difficulty to obtain
+  - Mangrove_Log
+  - Cherry_Log
+  - Bamboo_Block
+  - Pumpkin
+  - Melon
+  - End_Stone
+  - End_Stone_Bricks
+  - Purpur_Block
+  - Nether_Bricks
+  - Shroomlight
+  - Bookshelf
+  - Coal_Ore
+  - Redstone_Ore
+  - Lapis_Ore
+  - Iron_Ore
+  - Copper_Ore
+  - Nether_Gold_Ore
+  - Nether_Quartz_Ore
+  - Deepslate_Coal_Ore
+  - Deepslate_Redstone_Ore
+  - Deepslate_Lapis_Ore
+  - Deepslate_Iron_Ore
+  - Deepslate_Copper_Ore
+
+hard:
+  # Extremely rare/valuable blocks
+  - Obsidian
+  - Gold_Ore
+  - Diamond_Ore
+  - Emerald_Ore
+  - Deepslate_Gold_Ore
+  - Deepslate_Diamond_Ore
+  - Deepslate_Emerald_Ore
+  - Ancient_Debris

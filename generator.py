@@ -26,9 +26,9 @@ def load_yaml_file(filename):
         return yaml.safe_load(file)
 
 # Load all data files
-mobs_data = load_yaml_file('mobs.yml')
-blocks_data = load_yaml_file('blocks.yml')
-food_data = load_yaml_file('food.yml')
+mobs_by_rarity_data = load_yaml_file('mobs_by_rarity.yml')
+food_by_rarity_data = load_yaml_file('food_by_rarity.yml')
+blocks_by_rarity_data = load_yaml_file('blocks_by_rarity.yml')
 smeltable_data = load_yaml_file('smeltable.yml')
 tamable_data = load_yaml_file('tamable.yml')
 rideable_data = load_yaml_file('rideable.yml')
@@ -52,8 +52,8 @@ def generate_quest_id(existing_ids, prefix=''):
         if new_id not in existing_ids:
             return new_id
 
-def generate_mob_quest(quest_id, mob_name):
-    required_progress = random.randint(16, 40)  # Reduced max from 64 to 40
+def generate_mob_quest(quest_id, mob_name, rarity_range):
+    required_progress = random.randint(rarity_range[0], rarity_range[1])
     config = get_quest_config(required_progress)
     
     quest = {
@@ -81,8 +81,8 @@ def generate_mob_quest(quest_id, mob_name):
     }
     return quest
 
-def generate_mining_quest(quest_id, block_name):
-    required_progress = random.randint(16, 40)  # Reduced max from 64 to 40
+def generate_mining_quest(quest_id, block_name, rarity_range=(16, 40)):
+    required_progress = random.randint(rarity_range[0], rarity_range[1])
     config = get_quest_config(required_progress)
 
     quest = {
@@ -111,8 +111,8 @@ def generate_mining_quest(quest_id, block_name):
     }
     return quest
 
-def generate_placing_quest(quest_id, block_name):
-    required_progress = random.randint(16, 40)  # Reduced max from 64 to 40
+def generate_placing_quest(quest_id, block_name, rarity_range=(16, 40)):
+    required_progress = random.randint(rarity_range[0], rarity_range[1])
     config = get_quest_config(required_progress)
 
     quest = {
@@ -141,8 +141,8 @@ def generate_placing_quest(quest_id, block_name):
     }
     return quest
 
-def generate_eating_quest(quest_id, food_name):
-    required_progress = random.randint(10, 30)  # Reduced for food items
+def generate_eating_quest(quest_id, food_name, rarity_range=(10, 30)):
+    required_progress = random.randint(rarity_range[0], rarity_range[1])
     config = get_quest_config(required_progress)
     
     quest = {
@@ -509,29 +509,77 @@ def generate_gain_experience_quest(quest_id):
     }
     return quest
 
-# Generate quests using mob names from mobs.yml
+# Generate quests using simplified rarity system
 generated_mob_quests = {}
-for mob_name in mobs_data:
-    quest_id = generate_quest_id(generated_mob_quests, 'mob_')
-    generated_mob_quests.update(generate_mob_quest(quest_id, mob_name))
 
-# Generate quests using block names from blocks.yml
+# Hard rarity mobs: 1 kill (boss/elite mobs)
+for mob_name in mobs_by_rarity_data['hard']:
+    quest_id = generate_quest_id(generated_mob_quests, 'hard_')
+    generated_mob_quests.update(generate_mob_quest(quest_id, mob_name, (1, 1)))
+
+# Rare rarity mobs: 4-8 kills (moderate difficulty)
+for mob_name in mobs_by_rarity_data['rare']:
+    quest_id = generate_quest_id(generated_mob_quests, 'rare_')
+    generated_mob_quests.update(generate_mob_quest(quest_id, mob_name, (4, 8)))
+
+# Common rarity mobs: 8-16 kills (easily farmable)
+for mob_name in mobs_by_rarity_data['common']:
+    quest_id = generate_quest_id(generated_mob_quests, 'common_')
+    generated_mob_quests.update(generate_mob_quest(quest_id, mob_name, (8, 16)))
+
+# Generate quests using rarity-based blocks system
 generated_mining_quests = {}
-for block_name in blocks_data:
-    quest_id = generate_quest_id(generated_mining_quests, 'mine_')
-    generated_mining_quests.update(generate_mining_quest(quest_id, block_name))
 
-# Generate quests using block names from blocks.yml
+# Hard rarity blocks: 4-8 mining (extremely rare/valuable)
+for block_name in blocks_by_rarity_data['hard']:
+    quest_id = generate_quest_id(generated_mining_quests, 'hard_mine_')
+    generated_mining_quests.update(generate_mining_quest(quest_id, block_name, (4, 8)))
+
+# Rare rarity blocks: 8-16 mining (moderate difficulty)
+for block_name in blocks_by_rarity_data['rare']:
+    quest_id = generate_quest_id(generated_mining_quests, 'rare_mine_')
+    generated_mining_quests.update(generate_mining_quest(quest_id, block_name, (8, 16)))
+
+# Common rarity blocks: 16-32 mining (easily obtainable)
+for block_name in blocks_by_rarity_data['common']:
+    quest_id = generate_quest_id(generated_mining_quests, 'common_mine_')
+    generated_mining_quests.update(generate_mining_quest(quest_id, block_name, (16, 32)))
+
+# Generate quests using rarity-based blocks system for placing
 generated_placing_quests = {}
-for block_name in blocks_data:
-    quest_id = generate_quest_id(generated_placing_quests, 'place_')
-    generated_placing_quests.update(generate_placing_quest(quest_id, block_name))
 
-# Generate quests using food names from food.yml
+# Hard rarity blocks: 4-8 placing (extremely rare/valuable)
+for block_name in blocks_by_rarity_data['hard']:
+    quest_id = generate_quest_id(generated_placing_quests, 'hard_place_')
+    generated_placing_quests.update(generate_placing_quest(quest_id, block_name, (4, 8)))
+
+# Rare rarity blocks: 8-16 placing (moderate difficulty)
+for block_name in blocks_by_rarity_data['rare']:
+    quest_id = generate_quest_id(generated_placing_quests, 'rare_place_')
+    generated_placing_quests.update(generate_placing_quest(quest_id, block_name, (8, 16)))
+
+# Common rarity blocks: 16-32 placing (easily obtainable)
+for block_name in blocks_by_rarity_data['common']:
+    quest_id = generate_quest_id(generated_placing_quests, 'common_place_')
+    generated_placing_quests.update(generate_placing_quest(quest_id, block_name, (16, 32)))
+
+# Generate quests using rarity-based food system
 generated_food_quests = {}
-for food_name in food_data:
-    quest_id = generate_quest_id(generated_food_quests, 'food_')
-    generated_food_quests.update(generate_eating_quest(quest_id, food_name))
+
+# Hard rarity foods: 4-8 consumption (extremely rare/valuable)
+for food_name in food_by_rarity_data['hard']:
+    quest_id = generate_quest_id(generated_food_quests, 'hard_food_')
+    generated_food_quests.update(generate_eating_quest(quest_id, food_name, (4, 8)))
+
+# Rare rarity foods: 8-16 consumption (moderate difficulty)
+for food_name in food_by_rarity_data['rare']:
+    quest_id = generate_quest_id(generated_food_quests, 'rare_food_')
+    generated_food_quests.update(generate_eating_quest(quest_id, food_name, (8, 16)))
+
+# Common rarity foods: 16-32 consumption (easily obtainable)
+for food_name in food_by_rarity_data['common']:
+    quest_id = generate_quest_id(generated_food_quests, 'common_food_')
+    generated_food_quests.update(generate_eating_quest(quest_id, food_name, (16, 32)))
 
 # Generate quests using smeltable item names
 generated_smelting_quests = {}

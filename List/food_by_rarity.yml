@@ -1,0 +1,36 @@
+
+# Food Rarity Classification for Quest Generation
+# Consumption requirements: common (16-32), rare (8-16), hard (4-8)
+
+common:
+  - Baked_Potato
+  - Bread
+  - Carrot
+  - Cooked_Beef
+  - Cooked_Chicken
+  - Cooked_Cod
+  - Cooked_Mutton
+  - Cooked_Porkchop
+  - Cooked_Rabbit
+  - Cooked_Salmon
+  - Cookie
+  - Dried_Kelp
+  - Beef
+  - Chicken
+  - Cod
+  - Mutton
+  - Porkchop
+  - Rabbit
+  - Salmon
+  - Sweet_Berries
+rare:
+  - Apple
+  - Beetroot_Soup
+  - Chorus_Fruit
+  - Honey_Bottle
+  - Mushroom_Stew
+  - Pufferfish
+  - Rabbit_Stew
+  - Tropical_Fish
+hard:
+  - Golden_Apple

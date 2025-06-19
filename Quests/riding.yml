@@ -2,7 +2,7 @@ ride_1:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride a Camel for &3488 blocks&7."
+    - "&8 \xBB &7Ride a Camel for &3415 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -13,14 +13,14 @@ ride_1:
     name: '&e&lQUEST:&f Camel Rider'
   name: Camel Rider
   points: 5
-  required-progress: 488
+  required-progress: 415
   type: ride-mob
   variable: Camel
 ride_2:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride a Donkey for &3448 blocks&7."
+    - "&8 \xBB &7Ride a Donkey for &3283 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -31,14 +31,14 @@ ride_2:
     name: '&e&lQUEST:&f Donkey Rider'
   name: Donkey Rider
   points: 5
-  required-progress: 448
+  required-progress: 283
   type: ride-mob
   variable: Donkey
 ride_3:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride a Horse for &3185 blocks&7."
+    - "&8 \xBB &7Ride a Horse for &3491 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -49,14 +49,14 @@ ride_3:
     name: '&e&lQUEST:&f Horse Rider'
   name: Horse Rider
   points: 5
-  required-progress: 185
+  required-progress: 491
   type: ride-mob
   variable: Horse
 ride_4:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride a Mule for &3437 blocks&7."
+    - "&8 \xBB &7Ride a Mule for &3121 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -67,14 +67,14 @@ ride_4:
     name: '&e&lQUEST:&f Mule Rider'
   name: Mule Rider
   points: 5
-  required-progress: 437
+  required-progress: 121
   type: ride-mob
   variable: Mule
 ride_5:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride a Pig for &3154 blocks&7."
+    - "&8 \xBB &7Ride a Pig for &3243 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -85,14 +85,14 @@ ride_5:
     name: '&e&lQUEST:&f Pig Rider'
   name: Pig Rider
   points: 5
-  required-progress: 154
+  required-progress: 243
   type: ride-mob
   variable: Pig
 ride_6:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride a Skeleton_Horse for &3434 blocks&7."
+    - "&8 \xBB &7Ride a Skeleton_Horse for &3382 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -103,14 +103,14 @@ ride_6:
     name: '&e&lQUEST:&f Skeleton_Horse Rider'
   name: Skeleton_Horse Rider
   points: 5
-  required-progress: 434
+  required-progress: 382
   type: ride-mob
   variable: Skeleton_Horse
 ride_7:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Ride a Strider for &3329 blocks&7."
+    - "&8 \xBB &7Ride a Strider for &3263 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -121,6 +121,6 @@ ride_7:
     name: '&e&lQUEST:&f Strider Rider'
   name: Strider Rider
   points: 5
-  required-progress: 329
+  required-progress: 263
   type: ride-mob
   variable: Strider

@@ -2,7 +2,7 @@ fly_2:
   item:
     lore:
     - "&8 \xBB &7To complete this quest, you must"
-    - "&8 \xBB &7Fly a distance of &31796 blocks&7."
+    - "&8 \xBB &7Fly a distance of &31404 blocks&7."
     - ''
     - '&e&lINFORMATION'
     - "&8 \xBB &7EXP: &f5x"
@@ -13,5 +13,5 @@ fly_2:
     name: '&e&lQUEST:&f Aviator'
   name: Aviator
   points: 5
-  required-progress: 1796
+  required-progress: 1404
   type: fly

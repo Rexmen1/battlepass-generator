@@ -3,18 +3,18 @@ place_1:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &339 Oak_Log&7.'
+    - '&8  &7Place &323 Oak_Log&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Oak_Log
     name: '&e&lQUEST:&f Oak_Log Builder'
   name: Oak_Log Builder
-  points: 5
-  required-progress: 39
+  points: 4
+  required-progress: 23
   type: block-place
   variable: Oak_Log
 place_10:
@@ -41,7 +41,7 @@ place_11:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &322 Diorite&7.'
+    - '&8  &7Place &328 Diorite&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -52,7 +52,7 @@ place_11:
     name: '&e&lQUEST:&f Diorite Builder'
   name: Diorite Builder
   points: 4
-  required-progress: 22
+  required-progress: 28
   type: block-place
   variable: Diorite
 place_12:
@@ -60,18 +60,18 @@ place_12:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &329 Granite&7.'
+    - '&8  &7Place &335 Granite&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Granite
     name: '&e&lQUEST:&f Granite Builder'
   name: Granite Builder
-  points: 4
-  required-progress: 29
+  points: 5
+  required-progress: 35
   type: block-place
   variable: Granite
 place_13:
@@ -79,7 +79,7 @@ place_13:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &340 End_Stone&7.'
+    - '&8  &7Place &335 End_Stone&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f5x'
@@ -90,7 +90,7 @@ place_13:
     name: '&e&lQUEST:&f End_Stone Builder'
   name: End_Stone Builder
   points: 5
-  required-progress: 40
+  required-progress: 35
   type: block-place
   variable: End_Stone
 place_14:
@@ -98,7 +98,7 @@ place_14:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &319 End_Stone_Bricks&7.'
+    - '&8  &7Place &329 End_Stone_Bricks&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -109,7 +109,7 @@ place_14:
     name: '&e&lQUEST:&f End_Stone_Bricks Builder'
   name: End_Stone_Bricks Builder
   points: 4
-  required-progress: 19
+  required-progress: 29
   type: block-place
   variable: End_Stone_Bricks
 place_15:
@@ -117,7 +117,7 @@ place_15:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &318 Purpur_Block&7.'
+    - '&8  &7Place &317 Purpur_Block&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -128,7 +128,7 @@ place_15:
     name: '&e&lQUEST:&f Purpur_Block Builder'
   name: Purpur_Block Builder
   points: 4
-  required-progress: 18
+  required-progress: 17
   type: block-place
   variable: Purpur_Block
 place_16:
@@ -136,7 +136,7 @@ place_16:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &332 Obsidian&7.'
+    - '&8  &7Place &337 Obsidian&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f5x'
@@ -147,7 +147,7 @@ place_16:
     name: '&e&lQUEST:&f Obsidian Builder'
   name: Obsidian Builder
   points: 5
-  required-progress: 32
+  required-progress: 37
   type: block-place
   variable: Obsidian
 place_17:
@@ -155,7 +155,7 @@ place_17:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &316 Pumpkin&7.'
+    - '&8  &7Place &330 Pumpkin&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -166,7 +166,7 @@ place_17:
     name: '&e&lQUEST:&f Pumpkin Builder'
   name: Pumpkin Builder
   points: 4
-  required-progress: 16
+  required-progress: 30
   type: block-place
   variable: Pumpkin
 place_18:
@@ -174,18 +174,18 @@ place_18:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &320 Melon&7.'
+    - '&8  &7Place &339 Melon&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Melon
     name: '&e&lQUEST:&f Melon Builder'
   name: Melon Builder
-  points: 4
-  required-progress: 20
+  points: 5
+  required-progress: 39
   type: block-place
   variable: Melon
 place_19:
@@ -193,18 +193,18 @@ place_19:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &340 Bamboo_Block&7.'
+    - '&8  &7Place &329 Bamboo_Block&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Bamboo_Block
     name: '&e&lQUEST:&f Bamboo_Block Builder'
   name: Bamboo_Block Builder
-  points: 5
-  required-progress: 40
+  points: 4
+  required-progress: 29
   type: block-place
   variable: Bamboo_Block
 place_2:
@@ -212,18 +212,18 @@ place_2:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &333 Birch_Log&7.'
+    - '&8  &7Place &319 Birch_Log&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Birch_Log
     name: '&e&lQUEST:&f Birch_Log Builder'
   name: Birch_Log Builder
-  points: 5
-  required-progress: 33
+  points: 4
+  required-progress: 19
   type: block-place
   variable: Birch_Log
 place_20:
@@ -231,7 +231,7 @@ place_20:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &324 Basalt&7.'
+    - '&8  &7Place &320 Basalt&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -242,7 +242,7 @@ place_20:
     name: '&e&lQUEST:&f Basalt Builder'
   name: Basalt Builder
   points: 4
-  required-progress: 24
+  required-progress: 20
   type: block-place
   variable: Basalt
 place_21:
@@ -250,18 +250,18 @@ place_21:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &336 Blackstone&7.'
+    - '&8  &7Place &330 Blackstone&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Blackstone
     name: '&e&lQUEST:&f Blackstone Builder'
   name: Blackstone Builder
-  points: 5
-  required-progress: 36
+  points: 4
+  required-progress: 30
   type: block-place
   variable: Blackstone
 place_22:
@@ -269,18 +269,18 @@ place_22:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &340 Nether_Bricks&7.'
+    - '&8  &7Place &325 Nether_Bricks&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Nether_Bricks
     name: '&e&lQUEST:&f Nether_Bricks Builder'
   name: Nether_Bricks Builder
-  points: 5
-  required-progress: 40
+  points: 4
+  required-progress: 25
   type: block-place
   variable: Nether_Bricks
 place_23:
@@ -288,7 +288,7 @@ place_23:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &316 Soul_Sand&7.'
+    - '&8  &7Place &323 Soul_Sand&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -299,7 +299,7 @@ place_23:
     name: '&e&lQUEST:&f Soul_Sand Builder'
   name: Soul_Sand Builder
   points: 4
-  required-progress: 16
+  required-progress: 23
   type: block-place
   variable: Soul_Sand
 place_24:
@@ -307,18 +307,18 @@ place_24:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &317 Soul_Soil&7.'
+    - '&8  &7Place &331 Soul_Soil&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Soul_Soil
     name: '&e&lQUEST:&f Soul_Soil Builder'
   name: Soul_Soil Builder
-  points: 4
-  required-progress: 17
+  points: 5
+  required-progress: 31
   type: block-place
   variable: Soul_Soil
 place_25:
@@ -326,7 +326,7 @@ place_25:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &339 Shroomlight&7.'
+    - '&8  &7Place &340 Shroomlight&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f5x'
@@ -337,7 +337,7 @@ place_25:
     name: '&e&lQUEST:&f Shroomlight Builder'
   name: Shroomlight Builder
   points: 5
-  required-progress: 39
+  required-progress: 40
   type: block-place
   variable: Shroomlight
 place_26:
@@ -345,18 +345,18 @@ place_26:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &326 Nether_Gold_Ore&7.'
+    - '&8  &7Place &334 Nether_Gold_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Nether_Gold_Ore
     name: '&e&lQUEST:&f Nether_Gold_Ore Builder'
   name: Nether_Gold_Ore Builder
-  points: 4
-  required-progress: 26
+  points: 5
+  required-progress: 34
   type: block-place
   variable: Nether_Gold_Ore
 place_27:
@@ -364,7 +364,7 @@ place_27:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &317 Nether_Quartz_Ore&7.'
+    - '&8  &7Place &324 Nether_Quartz_Ore&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -375,7 +375,7 @@ place_27:
     name: '&e&lQUEST:&f Nether_Quartz_Ore Builder'
   name: Nether_Quartz_Ore Builder
   points: 4
-  required-progress: 17
+  required-progress: 24
   type: block-place
   variable: Nether_Quartz_Ore
 place_28:
@@ -383,7 +383,7 @@ place_28:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &321 Netherrack&7.'
+    - '&8  &7Place &318 Netherrack&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -394,7 +394,7 @@ place_28:
     name: '&e&lQUEST:&f Netherrack Builder'
   name: Netherrack Builder
   points: 4
-  required-progress: 21
+  required-progress: 18
   type: block-place
   variable: Netherrack
 place_29:
@@ -402,7 +402,7 @@ place_29:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &326 Calcite&7.'
+    - '&8  &7Place &318 Calcite&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -413,7 +413,7 @@ place_29:
     name: '&e&lQUEST:&f Calcite Builder'
   name: Calcite Builder
   points: 4
-  required-progress: 26
+  required-progress: 18
   type: block-place
   variable: Calcite
 place_3:
@@ -421,7 +421,7 @@ place_3:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &332 Jungle_Log&7.'
+    - '&8  &7Place &336 Jungle_Log&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f5x'
@@ -432,7 +432,7 @@ place_3:
     name: '&e&lQUEST:&f Jungle_Log Builder'
   name: Jungle_Log Builder
   points: 5
-  required-progress: 32
+  required-progress: 36
   type: block-place
   variable: Jungle_Log
 place_30:
@@ -440,18 +440,18 @@ place_30:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &317 Deepslate&7.'
+    - '&8  &7Place &337 Deepslate&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Deepslate
     name: '&e&lQUEST:&f Deepslate Builder'
   name: Deepslate Builder
-  points: 4
-  required-progress: 17
+  points: 5
+  required-progress: 37
   type: block-place
   variable: Deepslate
 place_31:
@@ -459,18 +459,18 @@ place_31:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &328 Tuff&7.'
+    - '&8  &7Place &334 Tuff&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Tuff
     name: '&e&lQUEST:&f Tuff Builder'
   name: Tuff Builder
-  points: 4
-  required-progress: 28
+  points: 5
+  required-progress: 34
   type: block-place
   variable: Tuff
 place_32:
@@ -478,18 +478,18 @@ place_32:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &335 Coal_Ore&7.'
+    - '&8  &7Place &330 Coal_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Coal_Ore
     name: '&e&lQUEST:&f Coal_Ore Builder'
   name: Coal_Ore Builder
-  points: 5
-  required-progress: 35
+  points: 4
+  required-progress: 30
   type: block-place
   variable: Coal_Ore
 place_33:
@@ -497,18 +497,18 @@ place_33:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &334 Redstone_Ore&7.'
+    - '&8  &7Place &327 Redstone_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Redstone_Ore
     name: '&e&lQUEST:&f Redstone_Ore Builder'
   name: Redstone_Ore Builder
-  points: 5
-  required-progress: 34
+  points: 4
+  required-progress: 27
   type: block-place
   variable: Redstone_Ore
 place_34:
@@ -516,7 +516,7 @@ place_34:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &326 Lapis_Ore&7.'
+    - '&8  &7Place &317 Lapis_Ore&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -527,7 +527,7 @@ place_34:
     name: '&e&lQUEST:&f Lapis_Ore Builder'
   name: Lapis_Ore Builder
   points: 4
-  required-progress: 26
+  required-progress: 17
   type: block-place
   variable: Lapis_Ore
 place_35:
@@ -535,7 +535,7 @@ place_35:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &329 Iron_Ore&7.'
+    - '&8  &7Place &322 Iron_Ore&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -546,7 +546,7 @@ place_35:
     name: '&e&lQUEST:&f Iron_Ore Builder'
   name: Iron_Ore Builder
   points: 4
-  required-progress: 29
+  required-progress: 22
   type: block-place
   variable: Iron_Ore
 place_36:
@@ -554,7 +554,7 @@ place_36:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &322 Gold_Ore&7.'
+    - '&8  &7Place &317 Gold_Ore&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -565,7 +565,7 @@ place_36:
     name: '&e&lQUEST:&f Gold_Ore Builder'
   name: Gold_Ore Builder
   points: 4
-  required-progress: 22
+  required-progress: 17
   type: block-place
   variable: Gold_Ore
 place_37:
@@ -573,18 +573,18 @@ place_37:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &330 Copper_Ore&7.'
+    - '&8  &7Place &333 Copper_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Copper_Ore
     name: '&e&lQUEST:&f Copper_Ore Builder'
   name: Copper_Ore Builder
-  points: 4
-  required-progress: 30
+  points: 5
+  required-progress: 33
   type: block-place
   variable: Copper_Ore
 place_38:
@@ -611,18 +611,18 @@ place_39:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &321 Emerald_Ore&7.'
+    - '&8  &7Place &340 Emerald_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Emerald_Ore
     name: '&e&lQUEST:&f Emerald_Ore Builder'
   name: Emerald_Ore Builder
-  points: 4
-  required-progress: 21
+  points: 5
+  required-progress: 40
   type: block-place
   variable: Emerald_Ore
 place_4:
@@ -630,7 +630,7 @@ place_4:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &320 Spruce_Log&7.'
+    - '&8  &7Place &317 Spruce_Log&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -641,7 +641,7 @@ place_4:
     name: '&e&lQUEST:&f Spruce_Log Builder'
   name: Spruce_Log Builder
   points: 4
-  required-progress: 20
+  required-progress: 17
   type: block-place
   variable: Spruce_Log
 place_40:
@@ -649,18 +649,18 @@ place_40:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &324 Deepslate_Coal_Ore&7.'
+    - '&8  &7Place &332 Deepslate_Coal_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Deepslate_Coal_Ore
     name: '&e&lQUEST:&f Deepslate_Coal_Ore Builder'
   name: Deepslate_Coal_Ore Builder
-  points: 4
-  required-progress: 24
+  points: 5
+  required-progress: 32
   type: block-place
   variable: Deepslate_Coal_Ore
 place_41:
@@ -668,7 +668,7 @@ place_41:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &316 Deepslate_Redstone_Ore&7.'
+    - '&8  &7Place &328 Deepslate_Redstone_Ore&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -679,7 +679,7 @@ place_41:
     name: '&e&lQUEST:&f Deepslate_Redstone_Ore Builder'
   name: Deepslate_Redstone_Ore Builder
   points: 4
-  required-progress: 16
+  required-progress: 28
   type: block-place
   variable: Deepslate_Redstone_Ore
 place_42:
@@ -687,7 +687,7 @@ place_42:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &320 Deepslate_Lapis_Ore&7.'
+    - '&8  &7Place &321 Deepslate_Lapis_Ore&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -698,7 +698,7 @@ place_42:
     name: '&e&lQUEST:&f Deepslate_Lapis_Ore Builder'
   name: Deepslate_Lapis_Ore Builder
   points: 4
-  required-progress: 20
+  required-progress: 21
   type: block-place
   variable: Deepslate_Lapis_Ore
 place_43:
@@ -706,18 +706,18 @@ place_43:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &331 Deepslate_Iron_Ore&7.'
+    - '&8  &7Place &318 Deepslate_Iron_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Deepslate_Iron_Ore
     name: '&e&lQUEST:&f Deepslate_Iron_Ore Builder'
   name: Deepslate_Iron_Ore Builder
-  points: 5
-  required-progress: 31
+  points: 4
+  required-progress: 18
   type: block-place
   variable: Deepslate_Iron_Ore
 place_44:
@@ -725,7 +725,7 @@ place_44:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &318 Deepslate_Gold_Ore&7.'
+    - '&8  &7Place &324 Deepslate_Gold_Ore&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -736,7 +736,7 @@ place_44:
     name: '&e&lQUEST:&f Deepslate_Gold_Ore Builder'
   name: Deepslate_Gold_Ore Builder
   points: 4
-  required-progress: 18
+  required-progress: 24
   type: block-place
   variable: Deepslate_Gold_Ore
 place_45:
@@ -744,18 +744,18 @@ place_45:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &317 Deepslate_Copper_Ore&7.'
+    - '&8  &7Place &339 Deepslate_Copper_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Deepslate_Copper_Ore
     name: '&e&lQUEST:&f Deepslate_Copper_Ore Builder'
   name: Deepslate_Copper_Ore Builder
-  points: 4
-  required-progress: 17
+  points: 5
+  required-progress: 39
   type: block-place
   variable: Deepslate_Copper_Ore
 place_46:
@@ -763,18 +763,18 @@ place_46:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &335 Deepslate_Diamond_Ore&7.'
+    - '&8  &7Place &328 Deepslate_Diamond_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Deepslate_Diamond_Ore
     name: '&e&lQUEST:&f Deepslate_Diamond_Ore Builder'
   name: Deepslate_Diamond_Ore Builder
-  points: 5
-  required-progress: 35
+  points: 4
+  required-progress: 28
   type: block-place
   variable: Deepslate_Diamond_Ore
 place_47:
@@ -782,18 +782,18 @@ place_47:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &337 Deepslate_Emerald_Ore&7.'
+    - '&8  &7Place &319 Deepslate_Emerald_Ore&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Deepslate_Emerald_Ore
     name: '&e&lQUEST:&f Deepslate_Emerald_Ore Builder'
   name: Deepslate_Emerald_Ore Builder
-  points: 5
-  required-progress: 37
+  points: 4
+  required-progress: 19
   type: block-place
   variable: Deepslate_Emerald_Ore
 place_48:
@@ -801,18 +801,18 @@ place_48:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &318 Orange_Terracotta&7.'
+    - '&8  &7Place &335 Orange_Terracotta&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Orange_Terracotta
     name: '&e&lQUEST:&f Orange_Terracotta Builder'
   name: Orange_Terracotta Builder
-  points: 4
-  required-progress: 18
+  points: 5
+  required-progress: 35
   type: block-place
   variable: Orange_Terracotta
 place_49:
@@ -820,18 +820,18 @@ place_49:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &328 White_Terracotta&7.'
+    - '&8  &7Place &338 White_Terracotta&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: White_Terracotta
     name: '&e&lQUEST:&f White_Terracotta Builder'
   name: White_Terracotta Builder
-  points: 4
-  required-progress: 28
+  points: 5
+  required-progress: 38
   type: block-place
   variable: White_Terracotta
 place_5:
@@ -839,7 +839,7 @@ place_5:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &322 Dark_Oak_Log&7.'
+    - '&8  &7Place &327 Dark_Oak_Log&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -850,7 +850,7 @@ place_5:
     name: '&e&lQUEST:&f Dark_Oak_Log Builder'
   name: Dark_Oak_Log Builder
   points: 4
-  required-progress: 22
+  required-progress: 27
   type: block-place
   variable: Dark_Oak_Log
 place_50:
@@ -858,18 +858,18 @@ place_50:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &330 Yellow_Terracotta&7.'
+    - '&8  &7Place &339 Yellow_Terracotta&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Yellow_Terracotta
     name: '&e&lQUEST:&f Yellow_Terracotta Builder'
   name: Yellow_Terracotta Builder
-  points: 4
-  required-progress: 30
+  points: 5
+  required-progress: 39
   type: block-place
   variable: Yellow_Terracotta
 place_51:
@@ -877,18 +877,18 @@ place_51:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &336 Light_Gray_Terracotta&7.'
+    - '&8  &7Place &319 Light_Gray_Terracotta&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Light_Gray_Terracotta
     name: '&e&lQUEST:&f Light_Gray_Terracotta Builder'
   name: Light_Gray_Terracotta Builder
-  points: 5
-  required-progress: 36
+  points: 4
+  required-progress: 19
   type: block-place
   variable: Light_Gray_Terracotta
 place_52:
@@ -896,18 +896,18 @@ place_52:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &326 Brown_Terracotta&7.'
+    - '&8  &7Place &340 Brown_Terracotta&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Brown_Terracotta
     name: '&e&lQUEST:&f Brown_Terracotta Builder'
   name: Brown_Terracotta Builder
-  points: 4
-  required-progress: 26
+  points: 5
+  required-progress: 40
   type: block-place
   variable: Brown_Terracotta
 place_53:
@@ -915,18 +915,18 @@ place_53:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &326 Red_Terracotta&7.'
+    - '&8  &7Place &340 Red_Terracotta&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Red_Terracotta
     name: '&e&lQUEST:&f Red_Terracotta Builder'
   name: Red_Terracotta Builder
-  points: 4
-  required-progress: 26
+  points: 5
+  required-progress: 40
   type: block-place
   variable: Red_Terracotta
 place_54:
@@ -934,7 +934,7 @@ place_54:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &324 Terracotta&7.'
+    - '&8  &7Place &316 Terracotta&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -945,7 +945,7 @@ place_54:
     name: '&e&lQUEST:&f Terracotta Builder'
   name: Terracotta Builder
   points: 4
-  required-progress: 24
+  required-progress: 16
   type: block-place
   variable: Terracotta
 place_55:
@@ -953,18 +953,18 @@ place_55:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &338 Grass_Block&7.'
+    - '&8  &7Place &319 Grass_Block&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Grass_Block
     name: '&e&lQUEST:&f Grass_Block Builder'
   name: Grass_Block Builder
-  points: 5
-  required-progress: 38
+  points: 4
+  required-progress: 19
   type: block-place
   variable: Grass_Block
 place_56:
@@ -972,7 +972,7 @@ place_56:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &328 Dirt&7.'
+    - '&8  &7Place &326 Dirt&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -983,7 +983,7 @@ place_56:
     name: '&e&lQUEST:&f Dirt Builder'
   name: Dirt Builder
   points: 4
-  required-progress: 28
+  required-progress: 26
   type: block-place
   variable: Dirt
 place_57:
@@ -991,7 +991,7 @@ place_57:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &331 Cobblestone&7.'
+    - '&8  &7Place &340 Cobblestone&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f5x'
@@ -1002,7 +1002,7 @@ place_57:
     name: '&e&lQUEST:&f Cobblestone Builder'
   name: Cobblestone Builder
   points: 5
-  required-progress: 31
+  required-progress: 40
   type: block-place
   variable: Cobblestone
 place_58:
@@ -1010,18 +1010,18 @@ place_58:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &331 Mossy_Cobblestone&7.'
+    - '&8  &7Place &317 Mossy_Cobblestone&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Mossy_Cobblestone
     name: '&e&lQUEST:&f Mossy_Cobblestone Builder'
   name: Mossy_Cobblestone Builder
-  points: 5
-  required-progress: 31
+  points: 4
+  required-progress: 17
   type: block-place
   variable: Mossy_Cobblestone
 place_59:
@@ -1029,18 +1029,18 @@ place_59:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &335 Sand&7.'
+    - '&8  &7Place &326 Sand&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Sand
     name: '&e&lQUEST:&f Sand Builder'
   name: Sand Builder
-  points: 5
-  required-progress: 35
+  points: 4
+  required-progress: 26
   type: block-place
   variable: Sand
 place_6:
@@ -1048,18 +1048,18 @@ place_6:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &339 Acacia_Log&7.'
+    - '&8  &7Place &327 Acacia_Log&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Acacia_Log
     name: '&e&lQUEST:&f Acacia_Log Builder'
   name: Acacia_Log Builder
-  points: 5
-  required-progress: 39
+  points: 4
+  required-progress: 27
   type: block-place
   variable: Acacia_Log
 place_60:
@@ -1067,18 +1067,18 @@ place_60:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &329 Gravel&7.'
+    - '&8  &7Place &333 Gravel&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Gravel
     name: '&e&lQUEST:&f Gravel Builder'
   name: Gravel Builder
-  points: 4
-  required-progress: 29
+  points: 5
+  required-progress: 33
   type: block-place
   variable: Gravel
 place_61:
@@ -1086,7 +1086,7 @@ place_61:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &335 Ice&7.'
+    - '&8  &7Place &334 Ice&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f5x'
@@ -1097,7 +1097,7 @@ place_61:
     name: '&e&lQUEST:&f Ice Builder'
   name: Ice Builder
   points: 5
-  required-progress: 35
+  required-progress: 34
   type: block-place
   variable: Ice
 place_62:
@@ -1105,18 +1105,18 @@ place_62:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &323 Snow_Block&7.'
+    - '&8  &7Place &333 Snow_Block&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Snow_Block
     name: '&e&lQUEST:&f Snow_Block Builder'
   name: Snow_Block Builder
-  points: 4
-  required-progress: 23
+  points: 5
+  required-progress: 33
   type: block-place
   variable: Snow_Block
 place_63:
@@ -1124,7 +1124,7 @@ place_63:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &328 Clay&7.'
+    - '&8  &7Place &329 Clay&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -1135,7 +1135,7 @@ place_63:
     name: '&e&lQUEST:&f Clay Builder'
   name: Clay Builder
   points: 4
-  required-progress: 28
+  required-progress: 29
   type: block-place
   variable: Clay
 place_64:
@@ -1143,7 +1143,7 @@ place_64:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &320 Bookshelf&7.'
+    - '&8  &7Place &316 Bookshelf&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f4x'
@@ -1154,7 +1154,7 @@ place_64:
     name: '&e&lQUEST:&f Bookshelf Builder'
   name: Bookshelf Builder
   points: 4
-  required-progress: 20
+  required-progress: 16
   type: block-place
   variable: Bookshelf
 place_65:
@@ -1162,18 +1162,18 @@ place_65:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &330 Ancient_Debris&7.'
+    - '&8  &7Place &331 Ancient_Debris&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f4x'
+    - '&8  &7EXP: &f5x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Ancient_Debris
     name: '&e&lQUEST:&f Ancient_Debris Builder'
   name: Ancient_Debris Builder
-  points: 4
-  required-progress: 30
+  points: 5
+  required-progress: 31
   type: block-place
   variable: Ancient_Debris
 place_7:
@@ -1181,18 +1181,18 @@ place_7:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &338 Mangrove_Log&7.'
+    - '&8  &7Place &326 Mangrove_Log&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Mangrove_Log
     name: '&e&lQUEST:&f Mangrove_Log Builder'
   name: Mangrove_Log Builder
-  points: 5
-  required-progress: 38
+  points: 4
+  required-progress: 26
   type: block-place
   variable: Mangrove_Log
 place_8:
@@ -1200,18 +1200,18 @@ place_8:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &338 Cherry_Log&7.'
+    - '&8  &7Place &318 Cherry_Log&7.'
     - ''
     - '&e&lINFORMATION'
-    - '&8  &7EXP: &f5x'
+    - '&8  &7EXP: &f4x'
     - '&8  &7%total_progress%&7/&e%required_progress%'
     - ''
     - '%progress_bar% &7(&a%percentage_progress%&7)'
     material: Cherry_Log
     name: '&e&lQUEST:&f Cherry_Log Builder'
   name: Cherry_Log Builder
-  points: 5
-  required-progress: 38
+  points: 4
+  required-progress: 18
   type: block-place
   variable: Cherry_Log
 place_9:
@@ -1219,7 +1219,7 @@ place_9:
   item:
     lore:
     - '&8  &7To complete this quest, you must'
-    - '&8  &7Place &337 Stone&7.'
+    - '&8  &7Place &334 Stone&7.'
     - ''
     - '&e&lINFORMATION'
     - '&8  &7EXP: &f5x'
@@ -1230,6 +1230,6 @@ place_9:
     name: '&e&lQUEST:&f Stone Builder'
   name: Stone Builder
   points: 5
-  required-progress: 37
+  required-progress: 34
   type: block-place
   variable: Stone

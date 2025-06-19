@@ -1,0 +1,69 @@
+# Mob Rarity Classification for Quest Generation
+# Kill requirements: common (8-16), rare (4-8), hard (1)
+
+common:
+  - Sheep
+  - Cow
+  - Pig
+  - Chicken
+  - Rabbit
+  - Mooshroom
+  - Squid
+  - Zombie
+  - Skeleton
+  - Creeper
+  - Spider
+  - Cave_Spider
+  - Husk
+  - Stray
+  - Drowned
+  - slime
+  - Enderman  
+  - Blaze
+rare:
+  - Silverfish
+  - Fox
+  - Bat
+  - Strider
+  - Axolotl
+  - Glow_Squid
+  - Frog
+  - Allay
+  - Snow_golem  
+  - Turtle  
+  - Villager  
+  - Parrot  
+  - Ocelot  
+  - Horse
+  - Donkey
+  - Mule  
+  - Witch
+  - Magma_Cube
+  - Guardian
+  - Endermite
+  - Piglin
+  - Iron_Golem
+  - Polar_bear
+  - Wolf
+  - Bee
+  - Goat
+  - Dolphin
+  - Llama
+  - Panda
+  - Hoglin
+  - Zoglin
+hard:
+  - Phantom
+  - Warden
+  - Ghast  
+  - Ender_Dragon
+  - Wither
+  - Elder_Guardian
+  - Ravager
+  - Evoker
+  - Vindicator
+  - Pillager
+  - Vex
+  - Shulker
+  - Wither_Skeleton
+  - Piglin_Brute
